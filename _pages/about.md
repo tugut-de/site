@@ -12,7 +12,7 @@ include_in_footer: false
 * Michael Munz
 * Axel Hodler
 
-<a href="/imprint/">Imprint/Impressum</a>, because §5 TMG.
+<a href="/imprint/">Imprint/Impressum</a>, §5 TMG.
 
 
 
