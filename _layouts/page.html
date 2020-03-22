@@ -7,16 +7,19 @@
 
 {% include head.html %}
 
-<body class="subPageBody">
-    <div class="headerBackground subPageHeaderBackground">
-        <div class="container subPageContainer">
-        {% include header.html %}
-            <article class="page markdown-body">
-                {{ content }}
-            </article>
-        </div>
-        {% include appstoreimages.html %}
+<body>
+<div>
+  <div class="headerBackground">
+    <div>
+      {% include header.html %}
+      <div class="container">
+        <article class="page markdown-body">
+          {{ content }}
+        </article>
+      </div>
     </div>
+  </div>
+</div>
 </body>
 
 </html>
