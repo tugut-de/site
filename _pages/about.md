@@ -9,9 +9,9 @@ include_in_footer: false
 * Dr. Tilman Becker
 * Michael Munz
 
-<a href="/imprint/">Imprint/Impressum</a>, §5 TMG
+<a href="/site/imprint/">Imprint/Impressum</a>, §5 TMG
 <br>
-<a href="/privacypolicy/">Privacy Policy</a>
+<a href="/site/privacypolicy/">Privacy Policy</a>
 
 
 
