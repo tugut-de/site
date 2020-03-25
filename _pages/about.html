@@ -1,0 +1,42 @@
+---
+title: Über uns
+include_in_header: true
+include_in_footer: false
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+<div>
+  <div class="headerBackground">
+    <div>
+      {% include header.html %}
+      <div class="container">
+        <div id="what">
+          <div id="what-is">
+            <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Team
+          </div>
+          <div id="what-is-explanation">
+            »Wir wollen gemeinnützigen Organisationen die Möglichkeit<br>
+            zur langfristigen und effizienten Unterstützung bieten«
+          </div>
+        </div>
+
+        <div id="team">
+          <div>Dennis Schlegel</div>
+          <div>Dr. Tilman Becker</div>
+          <div>Michael Munz</div>
+        </div>
+
+        <a href="/site/imprint/">Imprint/Impressum</a>, §5 TMG
+        <br>
+        <a href="/site/privacypolicy/">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
