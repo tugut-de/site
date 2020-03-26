@@ -754,8 +754,16 @@ footer {
 } 
 
 .footer {
+	display: flex;
+	justify-content: start;
 	left: 0;
 	bottom: 0;
 	background-color: lightgrey;
 	color: black;
+}
+
+#footer-copyright {
+	display: flex;
+	margin-left: 90px;
+	align-items: center;
 }
