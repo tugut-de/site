@@ -753,6 +753,9 @@ footer {
 	
 } 
 
-.hidden {
-	display: none;
+.footer {
+	left: 0;
+	bottom: 0;
+	background-color: lightgrey;
+	color: black;
 }
