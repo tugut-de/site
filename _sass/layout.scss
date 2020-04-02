@@ -208,10 +208,20 @@ header {
 		margin-top: 0;
 	}
 
+	#what-is {
+		text-align: center;
+	}
+
 	#what-left {
 		margin-top: 150px;
 		align-items: center;
 		text-align: center;
+	}
+
+	#advantages {
+		text-align: center;
+		list-style: none;
+		margin-bottom: 50px;
 	}
 
 	#concept {
@@ -228,6 +238,20 @@ header {
 
 	.concept-item-header {
 		margin-top: 20px;
+	}
+
+	#howto {
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#footer-copyright {
+		text-align: center;
+		justify-content: center;
+		width: 100%;
+		margin-left: 0 !important;
 	}
 }
 
