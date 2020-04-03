@@ -159,6 +159,12 @@ header {
 	flex-direction: column;
 }
 
+.concept-item-img {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
 .concept-item-header {
 	text-align: center;
 	font-size: 3rem;
@@ -190,7 +196,6 @@ header {
 
 .concept-item-desc {
 	padding: 70px;
-	margin-top: 40px;
 	text-align: center;
 	font-size: 2rem;
 	line-height: 1.3;
@@ -246,6 +251,7 @@ header {
 	}
 
 	.concept-item-desc {
+		margin: 20px 0 20px 0;
 		padding: 0;
 	}
 
