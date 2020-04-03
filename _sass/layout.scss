@@ -96,6 +96,13 @@ header {
 	flex-direction: column;
 }
 
+#we {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
 .text-logo {
 	padding: 0 10px 0 10px;
 	margin-top: 6px;
@@ -267,13 +274,46 @@ input {
 	display: flex;
 	justify-content: space-around;
 	margin-bottom: 300px;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.team-member {
+}
+
+.team-member-img {
+	filter: grayscale(100%);
+	border-radius: 50%;
+	max-width: 200px;
+}
+
+.team-member-smile {
+	margin-top: -50px;
 }
 
 @media only screen and (max-width: 768px) {
+	#team {
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+	}
+	.team-member {
+		margin-bottom: 20px;
+	}
+
 	#more {
 		margin-top: 0 !important;
 		display: flex;
 		flex-direction: column;
+	}
+
+	#we {
+		margin-top: 50px;
+	}
+
+	#team {
+		margin-top: 0;
 	}
 
 	#what {
@@ -904,6 +944,15 @@ footer {
 }
 
 #about {
+	max-width: 1000px;
+	line-height: 1.4;
 	display: flex;
 	text-align: center;
+}
+
+#about-explanation {
+	margin-bottom: 20px;
+	display: flex;
+	text-align: center;
+	font-size: 3rem;
 }
