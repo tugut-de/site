@@ -910,9 +910,10 @@ footer {
 	bottom: 0;
 	background-color: #e3e3e3;
 	color: black;
-	height: 75px;
+	height: $footer-height;
 	text-decoration: none;
 	margin-top: 100px;
+	width: 100%;
 }
 
 #footer-copyright {
