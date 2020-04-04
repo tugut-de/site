@@ -9,16 +9,18 @@
 
 <body>
 <div class="main">
-  <div class="headerBackground">
-    <div>
-      {% include header.html %}
-      <div class="container">
-        <article class="page markdown-body">
+  <div class="content">
+    <div class="headerBackground">
+      <div>
+        {% include header.html %}
+        <div class="container">
+          <article class="page markdown-body">
 
-          {{ content }}
-        </article>
+            {{ content }}
+          </article>
+        </div>
+        {% include footer.html %}
       </div>
-      {% include footer.html %}
     </div>
   </div>
 </div>

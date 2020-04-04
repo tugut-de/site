@@ -5,124 +5,126 @@
 
 <body>
 <div class="main">
-  <div class="imageWrapper">
-    <div class="headerBackground">
-      <div>
-        {% include header.html %}
-        <div class="container">
-          <div id="what">
-            <div id="what-is">
-              Was ist <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/>?
-            </div>
-            <div id="what-is-explanation">
-              Ein neuer, innovativer Weg zur Finanzierung<br>
-              gemeinnütziger Organisationen.
-            </div>
-          </div>
-
-          <div id="more">
-            <div id="what-left">
+  <div class="content">
+    <div class="imageWrapper">
+      <div class="headerBackground">
+        <div>
+          {% include header.html %}
+          <div class="container">
+            <div id="what">
               <div id="what-is">
-                <img class="text-logo-left" src="{{ site.url }}{{ site.baseurl }}/assets/logo_white.svg"/> für Vereine
+                Was ist <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/>?
               </div>
-              <div id="what-is-left-explanation">
-                Sammle im Handumdrehen Spenden<br>
-                für deinen Verein.
+              <div id="what-is-explanation">
+                Ein neuer, innovativer Weg zur Finanzierung<br>
+                gemeinnütziger Organisationen.
               </div>
             </div>
-            <div id="what-right">
-              <input type="button" class="btn cta" value="Sag Hallo 🙂"
+
+            <div id="more">
+              <div id="what-left">
+                <div id="what-is">
+                  <img class="text-logo-left" src="{{ site.url }}{{ site.baseurl }}/assets/logo_white.svg"/> für Vereine
+                </div>
+                <div id="what-is-left-explanation">
+                  Sammle im Handumdrehen Spenden<br>
+                  für deinen Verein.
+                </div>
+              </div>
+              <div id="what-right">
+                <input type="button" class="btn cta" value="Sag Hallo 🙂"
+                       onclick="location.href='mailto:info@tugut.de';"/>
+              </div>
+            </div>
+
+
+            <div id="concept">
+              <img class="text-logo-left" src="{{ site.url }}{{ site.baseurl }}/assets/logo_white.svg"/> Konzept
+            </div>
+
+            <div id="concept-explanation">
+              <div class="concept-item">
+                <div class="concept-item-img">
+                  <img src="{{ site.url }}{{ site.baseurl }}/assets/ziel.svg"/>
+                </div>
+                <div class="concept-item-header">
+                  Was ist das Ziel<br> von tugut?
+                </div>
+                <div class="concept-item-desc">
+                  tugut entwickelt digitale Lösungen und Produkte,
+                  die das Spenden an gemeinnützige Organisationen
+                  attraktiver und zugänglichher gestalten.
+                </div>
+              </div>
+              <div class="concept-item">
+                <div class="concept-item-img">
+                  <img src="{{ site.url }}{{ site.baseurl }}/assets/plattform.svg"/>
+                </div>
+                <div class="concept-item-header">
+                  Wie kann tugut<br>
+                  deinem Verein helfen?
+                </div>
+                <div class="concept-item-desc">
+                  Dein Verein wird auf der tugut Platform gelistet und erhält
+                  somit mehr Sichtbarkeit und Aufmerksamkeit. Unterstützer
+                  spenden über tugut direkt an deinen Verein.
+                </div>
+              </div>
+            </div>
+
+            <div id="what">
+              <div id="what-is">
+                Vorteile für deinen Verein
+              </div>
+              <div id="what-is-explanation">
+                Ein moderner Weg zur Finanzierung
+              </div>
+              <ul id="advantages">
+                <li>Sammle im Handumdrehen Spenden für deinen Verein​</li>
+                <li>Erzeuge mehr Aufmerksamkeit und Reichweite​</li>
+                <li>Support: deutschsprachig, schnell und zuverlässig per Mail und Telefon​</li>
+                <li>Persönliche Beratung und Unterstützung​</li>
+                <li>Einfache und intuitiv bedienbare Plattform​</li>
+                <li>Kostenlos - keine Anmeldegebühren und monatlichen Kosten</li>
+              </ul>
+            </div>
+
+            <div id="what">
+              <div id="what-is">
+                Wie kann ich spenden sammeln?
+              </div>
+              <div id="howto">
+                <div class="howto-item">
+                  <div class="howto-item-header">
+                    1. Anlegen
+                  </div>
+                  <div class="howto-item-desc">
+                    Wir legen dir kostenlos dein Vereinsprofil an
+                  </div>
+                </div>
+                <div class="howto-item">
+                  <div class="howto-item-header">
+                    2. Teilen
+                  </div>
+                  <div class="howto-item-desc">
+                    Hier kommst Du ins Spiel:<br>
+                    Teile dein Vereinsprofil an Freunde und Bekannte
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="end-cta">
+              <div id="what-is">
+                Mehr Infos?
+              </div>
+              <input type="button" class="btn cta-green" value="Uns schreiben"
                      onclick="location.href='mailto:info@tugut.de';"/>
             </div>
+
           </div>
-
-
-          <div id="concept">
-            <img class="text-logo-left" src="{{ site.url }}{{ site.baseurl }}/assets/logo_white.svg"/> Konzept
-          </div>
-
-          <div id="concept-explanation">
-            <div class="concept-item">
-              <div class="concept-item-img">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/ziel.svg"/>
-              </div>
-              <div class="concept-item-header">
-                Was ist das Ziel<br> von tugut?
-              </div>
-              <div class="concept-item-desc">
-                tugut entwickelt digitale Lösungen und Produkte,
-                die das Spenden an gemeinnützige Organisationen
-                attraktiver und zugänglichher gestalten.
-              </div>
-            </div>
-            <div class="concept-item">
-              <div class="concept-item-img">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/plattform.svg"/>
-              </div>
-              <div class="concept-item-header">
-                Wie kann tugut<br>
-                deinem Verein helfen?
-              </div>
-              <div class="concept-item-desc">
-                Dein Verein wird auf der tugut Platform gelistet und erhält
-                somit mehr Sichtbarkeit und Aufmerksamkeit. Unterstützer
-                spenden über tugut direkt an deinen Verein.
-              </div>
-            </div>
-          </div>
-
-          <div id="what">
-            <div id="what-is">
-              Vorteile für deinen Verein
-            </div>
-            <div id="what-is-explanation">
-              Ein moderner Weg zur Finanzierung
-            </div>
-            <ul id="advantages">
-              <li>Sammle im Handumdrehen Spenden für deinen Verein​</li>
-              <li>Erzeuge mehr Aufmerksamkeit und Reichweite​</li>
-              <li>Support: deutschsprachig, schnell und zuverlässig per Mail und Telefon​</li>
-              <li>Persönliche Beratung und Unterstützung​</li>
-              <li>Einfache und intuitiv bedienbare Plattform​</li>
-              <li>Kostenlos - keine Anmeldegebühren und monatlichen Kosten</li>
-            </ul>
-          </div>
-
-          <div id="what">
-            <div id="what-is">
-              Wie kann ich spenden sammeln?
-            </div>
-            <div id="howto">
-              <div class="howto-item">
-                <div class="howto-item-header">
-                  1. Anlegen
-                </div>
-                <div class="howto-item-desc">
-                  Wir legen dir kostenlos dein Vereinsprofil an
-                </div>
-              </div>
-              <div class="howto-item">
-                <div class="howto-item-header">
-                  2. Teilen
-                </div>
-                <div class="howto-item-desc">
-                  Hier kommst Du ins Spiel:<br>
-                  Teile dein Vereinsprofil an Freunde und Bekannte
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div id="end-cta">
-            <div id="what-is">
-              Mehr Infos?
-            </div>
-            <input type="button" class="btn cta-green" value="Uns schreiben"
-                   onclick="location.href='mailto:info@tugut.de';"/>
-          </div>
-
+          {% include footer.html %}
         </div>
-        {% include footer.html %}
       </div>
     </div>
   </div>
