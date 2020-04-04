@@ -151,7 +151,7 @@ header {
 #what-right {
 	display: flex;
 	flex-direction: column;
-	justify-content: end;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
 	width: 100%;
@@ -162,7 +162,7 @@ header {
 	background-color: white;
 	color: black;
 	padding: 14px 28px;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	cursor: pointer;
 	border-radius: 10px;
 }
