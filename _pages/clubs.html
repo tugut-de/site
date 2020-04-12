@@ -20,10 +20,15 @@ include_in_footer: false
             <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Teilnehmer
           </div>
         </div>
-        <div>
-          {% for sample in site.data.sample %}
-            {{ sample.name }}
-            {{ sample.description }}
+        <div class="clubs">
+          {% for club in site.data.clubs %}
+            <div class="club">
+              <a href="https://www.hodler.co/" target="_blank">
+                <img class="club-image" src="https://www.fillmurray.com/350/220"/>
+              </a>
+              <div class="club-name">{{ club.name }}</div>
+              <div class="club-description">Lorem ipsum dolor sit amet</div>
+            </div>
           {% endfor %}
         </div>
       </div>
