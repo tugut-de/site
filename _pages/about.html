@@ -41,48 +41,15 @@ include_in_footer: false
         </div>
 
         <div id="team">
+          {% for member in site.data.team %}
           <div class="team-member">
-            <img class="team-member-img" src="{{ site.url }}{{ site.baseurl }}/assets/team/dennis.jpg"/>
+            <img class="team-member-img" src="{{ site.url }}{{ site.baseurl }}/assets/team/{{ member.id }}.jpg"/>
             <img class="team-member-smile" src="{{ site.url }}{{ site.baseurl }}/assets/smile.svg"/>
             <div>
-              Dennis Schlegel
+              {{ member.name }}
             </div>
           </div>
-          <div class="team-member">
-            <img class="team-member-img" src="{{ site.url }}{{ site.baseurl }}/assets/team/tilman.jpg"/>
-            <img class="team-member-smile" src="{{ site.url }}{{ site.baseurl }}/assets/smile.svg"/>
-            <div>
-              Prof. Dr. Tilman Becker
-            </div>
-          </div>
-          <div class="team-member">
-            <img class="team-member-img" src="{{ site.url }}{{ site.baseurl }}/assets/team/michael.jpg"/>
-            <img class="team-member-smile" src="{{ site.url }}{{ site.baseurl }}/assets/smile.svg"/>
-            <div>
-              Michael Munz
-            </div>
-          </div>
-          <div class="team-member">
-            <img class="team-member-img" src="{{ site.url }}{{ site.baseurl }}/assets/team/janina.jpg"/>
-            <img class="team-member-smile" src="{{ site.url }}{{ site.baseurl }}/assets/smile.svg"/>
-            <div>
-              Janina Bader
-            </div>
-          </div>
-          <div class="team-member">
-            <img class="team-member-img" src="{{ site.url }}{{ site.baseurl }}/assets/team/lennart.jpg"/>
-            <img class="team-member-smile" src="{{ site.url }}{{ site.baseurl }}/assets/smile.svg"/>
-            <div>
-              Lennart Kubach
-            </div>
-          </div>
-          <div class="team-member">
-            <img class="team-member-img" src="{{ site.url }}{{ site.baseurl }}/assets/team/axel.jpg"/>
-            <img class="team-member-smile" src="{{ site.url }}{{ site.baseurl }}/assets/smile.svg"/>
-            <div>
-              Axel Hodler
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
