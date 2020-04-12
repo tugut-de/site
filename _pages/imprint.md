@@ -11,6 +11,11 @@ include_in_footer: true
 tugut GmbH
 Steinwaldstraße 25
 70599 Stuttgart
+E-Mail: info@tugut.de
+Telefon: 01728441452
+Geschäftsführer: Dennis Schlegel, Michael Munz, Dr. Tilman Becker
+Handelsregisternummer: HRB 772419
+Registergericht: Amtsgericht Stuttgart
 ```
 
 ## Haftung für Inhalte
