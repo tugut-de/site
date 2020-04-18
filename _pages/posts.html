@@ -1,0 +1,35 @@
+---
+title: Artikel
+include_in_header: false
+include_in_footer: false
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+<div class="main">
+  <div class="content">
+    <div>
+      {% include header.html %}
+      <div class="container">
+        <div id="what">
+          <div id="what-is">
+            <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Artikel
+          </div>
+        </div>
+        <div class="clubs">
+          {% for post in site.posts %}
+            <div>{{ post.title }}</div>
+            <div>{{ post.content }}</div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+</div>
+</body>
+</html>
