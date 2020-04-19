@@ -17,23 +17,22 @@ include_in_footer: false
       <div class="container">
         <div id="what">
           <div id="what-is">
-            <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Artikel
+            Artikel
           </div>
         </div>
-        <div class="container">
-          <div class="container">
-            {% for post in site.posts %}
-              <article class="page markdown-body">
-                <h1>{{ post.title }}</h1>
-                <div>{{ post.content }}</div>
-              </article>
-            {% endfor %}
-          </div>
+        <div class="posts">
+          {% for post in site.posts %}
+          <article class="post markdown-body">
+            <h1>{{ post.title }}</h1>
+            <div class="post-content">{{ post.content }}</div>
+          </article>
+          {% endfor %}
         </div>
       </div>
     </div>
   </div>
   {% include footer.html %}
+</div>
 </div>
 </body>
 </html>
