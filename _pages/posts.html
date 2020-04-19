@@ -20,11 +20,15 @@ include_in_footer: false
             <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Artikel
           </div>
         </div>
-        <div class="clubs">
-          {% for post in site.posts %}
-            <div>{{ post.title }}</div>
-            <div>{{ post.content }}</div>
-          {% endfor %}
+        <div class="container">
+          <div class="container">
+            {% for post in site.posts %}
+              <article class="page markdown-body">
+                <h1>{{ post.title }}</h1>
+                <div>{{ post.content }}</div>
+              </article>
+            {% endfor %}
+          </div>
         </div>
       </div>
     </div>
