@@ -1007,8 +1007,19 @@ footer {
 	font-size: 2rem;
 }
 
+.post-attribution {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
 .post-image {
 	display: flex;
 	justify-content: center;
 	margin: 30px 0 30px 0;
+}
+
+.post-header-image {
+	height: auto;
+	margin-bottom: 10px;
 }

@@ -1,6 +1,8 @@
 ---
 layout: posts
 title: Herausforderungen für das Ehrenamt
+image: herausforderungen_ehrenamt.jpg
+attribution: Photo by Hannah Busing on Unsplash 
 ---
 
 In Deutschland hat das ehrenamtliche Engagement der Bürgerinnen und Bürger eine zentrale Bedeutung für den gesellschaftlichen Zusammenhalt im Land. Insgesamt gibt es bei uns über 600.000 Vereine und fast die Hälfte der Deutschen besitzen eine Vereinsmitgliedschaft. Jeder fünfte Bundesbürger verbringt seine Freizeit in einem Sportverein. Daneben gibt es zahlreiche Hobby- und Interessenvereine, Musik- und Gesangsvereine oder auch Kleingarten- sowie Tierzüchtervereine und Kegelklubs.     

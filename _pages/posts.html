@@ -24,6 +24,8 @@ include_in_footer: false
           {% for post in site.posts %}
           <article class="post markdown-body">
             <h1>{{ post.title }}</h1>
+            <img class="post-header-image" src="{{ site.url }}{{ site.baseurl }}/assets/posts/{{ post.image }}"/>
+            <div class="post-attribution">{{ post.attribution }}</div>
             <div class="post-content">{{ post.content }}</div>
           </article>
           {% endfor %}

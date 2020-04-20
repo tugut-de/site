@@ -1,8 +1,9 @@
 ---
 layout: posts
 title: Warum spenden Menschen?
+image: warum_spenden.jpg
+attribution: Photo by Daniel Öberg on Unsplash
 ---
-
 René Beckers und Pamala Wieking arbeiten am Zentrum für Philanthropie der Universität Amsterdam. Für den Artikel [A Literature Review of Empirical Studies of Philantrophy: Eight Mechanism That Drive Charitable Giving](http://journals.sagepub.com/doi/abs/10.1177/0899764010380927) wurden über 500 Studien ausgewertet, in denen Wissenschaftler nach Spendenmotiven suchten. Insgesamt wurden acht Gründe identifiziert, warum Menschen spenden:
 
 1. Empfundene Notwendigkeit: ein Motiv für Spenden ist die Not, die damit gelindert wird bzw. vielmehr die Kenntnis über die Not.  
