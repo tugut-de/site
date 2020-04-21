@@ -1,8 +1,7 @@
 ---
 layout: posts
 title: Ehrenamt und Coronavirus
-image: ehrenamt_corona.jpg
-attribution: Photo by William Iven on Unsplash
+image: corona.png
 ---
 
 Die Stuttgarter Zeitung berichtet am 30.03.2020 in einem [Beitrag](https://www.stuttgarter-zeitung.de/inhalt.ehrenamt-und-coronavirus-cdu-fraktionschef-reinhart-will-vereine-wegen-corona-entlasten.e0b39a01-f4a2-4ec7-b9f6-f089dc96abf1.html), dass CDU-Fraktionschef Reinhart Vereine wegen der Corona Krise entlasten will. Aufgrund dieser haben Vereine wegen ausgefallener Feste und Aktivitäten hohe Verluste. Diesen soll mittels Steuererleichterungen und Bürokratieabbau geholfen werden.  
