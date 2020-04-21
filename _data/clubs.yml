@@ -1,16 +1,25 @@
-- id: fc
-  name: 2. FC Süderbrarup
-- id: band
-  name: Bergmanns-Brass Band
-- id: music
-  name: Musikverein Hogwarts
-- id: handball
-  name: SV Gotham
-- id: fishes
-  name: Fischerverein Rapture
-- id: kleintier
-  name: Kleintierzüchter Entenhausen
-- id: hockey
-  name: Mighty Pux
-- id: whisky
-  name: Whiskyfreunde Queen Margot
+- id: Sozial
+  name: KinderHelden
+  Spendenkonto: DE80601205000007709400
+  Webseite: https://www.kinderhelden.info/
+  E-Mail: mail@kinderhelden.info
+  Adresse: Breitscheidstraße 44, 70176 Stuttgart
+- id: Sozial
+  name: STELP e.V.
+  Spendenkonto: DE32430609677001801100
+  Webseite: https://www.stelp.eu/
+  E-Mail: team@stelp.eu
+  Adresse: Johannesstraße 35, 70176 Stuttgart
+- id: Sozial
+  name: Förderverein helfende Hände e.V.
+  Spendenkonto: DE22300606010004884973
+  Webseite: https://www.helfendehaendeev.de/
+  E-Mail: kontakt@helfendehaendeev.de
+  Adresse: Gebrüder-Schmid-Weg 13, 70199 Stuttgart
+- id: Sozial
+  name: Kindheitstraum Stuttgart e.V.
+  Spendenkonto: DE62602500100015118334
+  Webseite: https://www.kindheitstraum-stuttgart.de/
+  E-Mail: kontakt@kindheitstraum-stuttgart.de
+  Adresse: Möwenweg 21, 70378 Stuttgart
+
