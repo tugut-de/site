@@ -24,7 +24,7 @@ include_in_footer: false
           {% for club in site.data.clubs %}
             <div class="club">
               <a href="{{ club.web }}" target="_blank">
-                <img class="club-image" src="https://www.fillmurray.com/350/220"/>
+                <img class="club-image" src="{{ site.url }}{{ site.baseurl }}/assets/clubs/{{ club.image }}.png"/>
               </a>
               <div class="club-name">{{ club.name }}</div>
               <div class="club-description">Lorem ipsum dolor sit amet</div>
