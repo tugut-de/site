@@ -23,7 +23,7 @@ include_in_footer: false
         <div class="clubs">
           {% for club in site.data.clubs %}
             <div class="club">
-              <a href="https://www.hodler.co/" target="_blank">
+              <a href="{{ club.web }}" target="_blank">
                 <img class="club-image" src="https://www.fillmurray.com/350/220"/>
               </a>
               <div class="club-name">{{ club.name }}</div>

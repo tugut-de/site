@@ -1,27 +1,28 @@
 - id: 1
   name: KinderHelden
   Spendenkonto: DE80601205000007709400
-  Webseite: https://www.kinderhelden.info/
+  web: https://www.kinderhelden.info/
   E-Mail: mail@kinderhelden.info
   Adresse: Breitscheidstraße 44, 70176 Stuttgart
 - id: 2
   name: STELP
   Spendenkonto: DE32430609677001801100
-  Webseite: https://www.stelp.eu/
+  web: https://www.stelp.eu/
   E-Mail: team@stelp.eu
   Adresse: Johannesstraße 35, 70176 Stuttgart
 - id: 3
   name: Förderverein helfende Hände
   Spendenkonto: DE22300606010004884973
-  Webseite: https://www.helfendehaendeev.de/
+  web: https://www.helfendehaendeev.de/
   E-Mail: kontakt@helfendehaendeev.de
   Adresse: Gebrüder-Schmid-Weg 13, 70199 Stuttgart
 - id: 4
   name: Kindheitstraum Stuttgart
   Spendenkonto: DE62602500100015118334
-  Webseite: https://www.kindheitstraum-stuttgart.de/
+  web: https://www.kindheitstraum-stuttgart.de/
   E-Mail: kontakt@kindheitstraum-stuttgart.de
   Adresse: Möwenweg 21, 70378 Stuttgart
 - id: 5
   name: Kocherlager
+  web: https://www.kocherlager.de/
 
