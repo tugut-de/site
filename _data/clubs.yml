@@ -27,6 +27,13 @@
   Adresse: Möwenweg 21, 70378 Stuttgart
   image: snow
 - id: 5
+  name: Forum der Kulturen Stuttgart
+  Spendenkonto: DE72600501010001323683
+  web: https://www.forum-der-kulturen.de/
+  E-Mail: info@forum-der-kulturen.de
+  Adresse: Marktplatz 4, 70173 Stuttgart
+  image: snow
+- id: 6
   name: Kocherlager
   web: https://www.kocherlager.de/
   image: cooking
