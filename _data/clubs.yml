@@ -4,14 +4,14 @@
   web: https://www.kinderhelden.info/
   E-Mail: mail@kinderhelden.info
   Adresse: Breitscheidstraße 44, 70176 Stuttgart
-  image: learn
+  image: children
 - id: 2
   name: STELP
   Spendenkonto: DE32430609677001801100
   web: https://www.stelp.eu/
   E-Mail: team@stelp.eu
   Adresse: Johannesstraße 35, 70176 Stuttgart
-  image: children
+  image: learn
 - id: 3
   name: Förderverein helfende Hände
   Spendenkonto: DE22300606010004884973
