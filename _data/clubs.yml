@@ -5,7 +5,7 @@
   E-Mail: mail@kinderhelden.info
   Adresse: Breitscheidstraße 44, 70176 Stuttgart
   image: children
-  Beschreibung: Wir möchten Kindern mit schwierigen Startbedingungen frühzeitig und damit präventiv eine individuelle Unterstützung vor Ort bieten. Wir wünschen uns, dass sie ihre Potentiale spielerisch, mit Freude und ohne Leistungsdruck entdecken können, sich in einer zunehmend komplexer werdenden Welt gut zurechtfinden und sich integrieren können. Unsere Mentoring-Programme bieten Kindern dafür eine Förderung mit Herz von Anfang an.
+  description: Wir möchten Kindern mit schwierigen Startbedingungen frühzeitig und damit präventiv eine individuelle Unterstützung vor Ort bieten. Wir wünschen uns, dass sie ihre Potentiale spielerisch, mit Freude und ohne Leistungsdruck entdecken können, sich in einer zunehmend komplexer werdenden Welt gut zurechtfinden und sich integrieren können. Unsere Mentoring-Programme bieten Kindern dafür eine Förderung mit Herz von Anfang an.
 - id: 2
   name: STELP
   Spendenkonto: DE32430609677001801100
@@ -13,7 +13,7 @@
   E-Mail: team@stelp.eu
   Adresse: Johannesstraße 35, 70176 Stuttgart
   image: learn
-  Beschreibung: Wir sind der Überzeugung, dass niemand von uns vor der Geburt einen Test besonders gut bestanden hat, der sie/ihn dazu qualifiziert hat, in Mitteleuropa auf die Welt zu kommen. Es war pures Glück. Und von dem gilt es, etwas zurückzugeben. Alle, die STELP e.V. unterstützen, stehen für ein immer größer werdendes Kollektiv, das fest davon überzeugt ist, die Welt positiv verändern zu können.
+  description: Wir sind der Überzeugung, dass niemand von uns vor der Geburt einen Test besonders gut bestanden hat, der sie/ihn dazu qualifiziert hat, in Mitteleuropa auf die Welt zu kommen. Es war pures Glück. Und von dem gilt es, etwas zurückzugeben. Alle, die STELP e.V. unterstützen, stehen für ein immer größer werdendes Kollektiv, das fest davon überzeugt ist, die Welt positiv verändern zu können.
 - id: 3
   name: Förderverein helfende Hände
   Spendenkonto: DE22300606010004884973
@@ -21,7 +21,7 @@
   E-Mail: kontakt@helfendehaendeev.de
   Adresse: Gebrüder-Schmid-Weg 13, 70199 Stuttgart
   image: helping
-  Beschreibung: Der Förderverein wurde 1999 von einer Gruppe Stuttgarter Bürgerinnen und Bürger ins Leben gerufen. Wir haben uns die Linderung der Not der Menschen in Stuttgart zur Aufgabe gemacht. Der Unterstützung von sozial Benachteiligten gilt unser ganzes Streben.
+  description: Der Förderverein wurde 1999 von einer Gruppe Stuttgarter Bürgerinnen und Bürger ins Leben gerufen. Wir haben uns die Linderung der Not der Menschen in Stuttgart zur Aufgabe gemacht. Der Unterstützung von sozial Benachteiligten gilt unser ganzes Streben.
 - id: 4
   name: Kindheitstraum Stuttgart
   Spendenkonto: DE62602500100015118334
@@ -29,7 +29,7 @@
   E-Mail: kontakt@kindheitstraum-stuttgart.de
   Adresse: Möwenweg 21, 70378 Stuttgart
   image: snow
-  Beschreibung: Wir machen uns für Kinder und Jugendliche stark! Wir erfüllen Wünsche für leuchtende Augen und ein Stück Hoffnung. Gemeinsam haben wir uns auf den Weg gemacht, etwas zu bewegen und für andere da zu sein.
+  description: Wir machen uns für Kinder und Jugendliche stark! Wir erfüllen Wünsche für leuchtende Augen und ein Stück Hoffnung. Gemeinsam haben wir uns auf den Weg gemacht, etwas zu bewegen und für andere da zu sein.
 - id: 5
   name: Forum der Kulturen Stuttgart
   Spendenkonto: DE72600501010001323683
@@ -37,12 +37,12 @@
   E-Mail: info@forum-der-kulturen.de
   Adresse: Marktplatz 4, 70173 Stuttgart
   image: people
-  Beschreibung: Wir engagieren uns für den interkulturellen Dialog, für kulturelle Vielfalt und eine gleichwertige Partizipation von Migrantinnen, Migranten und ihren Nachkommen am gesellschaftlichen und kulturellen Leben. Gemeinsam mit unseren Mitgliedern und Partnern machen wir uns stark gegen Ausgrenzung, Vorurteile, Rassismen und Diskriminierungen sowie für die interkulturelle Öffnung von Institutionen, Ämtern und Vereinen.
+  description: Wir engagieren uns für den interkulturellen Dialog, für kulturelle Vielfalt und eine gleichwertige Partizipation von Migrantinnen, Migranten und ihren Nachkommen am gesellschaftlichen und kulturellen Leben. Gemeinsam mit unseren Mitgliedern und Partnern machen wir uns stark gegen Ausgrenzung, Vorurteile, Rassismen und Diskriminierungen sowie für die interkulturelle Öffnung von Institutionen, Ämtern und Vereinen.
 - id: 6
   name: Kocherlager
   web: https://www.kocherlager.de/
   image: campfire
-  Beschreibung: Zeltlager für Jungs die Bock auf Action, Spass und Gott haben. Auf dich warten actionreiche Spiele, spannende Geschichten am Lagerfeuer, nette Mitarbeiter und 9 Tage purer Spaß. Unser Lagerteam freut sich auf dich!
+  description: Zeltlager für Jungs die Bock auf Action, Spass und Gott haben. Auf dich warten actionreiche Spiele, spannende Geschichten am Lagerfeuer, nette Mitarbeiter und 9 Tage purer Spaß. Unser Lagerteam freut sich auf dich!
 - id: 7
   name: TSV Steinhaldenfeld
   Spendenkonto: 
@@ -50,4 +50,4 @@
   E-Mail: info@tsvsteinhaldenfeld.de
   Adresse: Schmollerstraße 185, 70378 Stuttgart
   image: soccer
-  Beschreibung: Der TSV Steinhaldenfeld ist ein Turn- und Sportverein in Stuttgart. Zu unseren Abteilungen zählen die DNA, Ski & Wandern, Turnen, Fußball, Tischtennis und Volleyball. 
+  description: Der TSV Steinhaldenfeld ist ein Turn- und Sportverein in Stuttgart. Zu unseren Abteilungen zählen die DNA, Ski & Wandern, Turnen, Fußball, Tischtennis und Volleyball.
