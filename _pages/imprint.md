@@ -14,7 +14,7 @@ Steinwaldstraße 25
 E-Mail: info@tugut.de
 Telefon: 01728441452
 Geschäftsführer: Axel Hodler, Dennis Schlegel, Michael Munz, Dr. Tilman Becker
-Steuernummer: 99039/04339
+USt.-Ident.-Nr.: DE329023200
 Handelsregisternummer: HRB 772419
 Registergericht: Amtsgericht Stuttgart
 ```
