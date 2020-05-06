@@ -290,11 +290,12 @@ input {
 .team-member-img {
 	filter: grayscale(100%);
 	border-radius: 50%;
-	max-width: 200px;
+	max-width: $tugut-member-max-width;
 }
 
 .team-member-smile {
 	margin-top: -50px;
+	max-width: $tugut-member-max-width;
 }
 
 .clubs {
