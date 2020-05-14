@@ -224,7 +224,6 @@ input {
 
 #concept-explanation {
 	margin-top: 100px;
-	margin-bottom: 100px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -254,7 +253,7 @@ input {
 
 .howto-item {
 	max-width: 400px;
-	background: $tugut-green;
+	border: 5px solid $tugut-green;
 	margin: 30px;
 	padding: 40px 20px 40px 20px;
 	flex-direction: column;
@@ -1075,4 +1074,14 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.sticker {
+	margin: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.sticker > img {
+	max-width: 150px;
 }
