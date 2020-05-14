@@ -280,8 +280,21 @@ input {
 }
 
 #advantages {
-	line-height: 1.3;
+	list-style: none;
+	line-height: 1.5;
 	font-size: 2rem;
+	white-space: nowrap;
+}
+
+.advantage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.advantage-check {
+	margin-left: 5px;
+	max-width: 25px;
 }
 
 #team {
@@ -390,6 +403,7 @@ input {
 	}
 
 	#advantages {
+		font-size: 1.5rem;
 		text-align: center;
 		list-style: none;
 		margin-bottom: 50px;

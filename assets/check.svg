@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Symbols</title>
+    <defs>
+        <rect id="path-1" x="30" y="26" width="500" height="500" rx="250"></rect>
+        <filter x="-9.4%" y="-8.6%" width="118.8%" height="118.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.027   0 0 0 0 0.145   0 0 0 0 0.078  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-9">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#50DE93" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <path d="M401.206611,162 L430.168773,190.962162 L231.130936,390 L230.725,389.594 L230.320657,390 L130,289.679343 L157.679343,262 L229.443,333.762 L401.206611,162 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>
