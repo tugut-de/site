@@ -82,7 +82,7 @@ header {
 	.logo > p {
 		display: none;
 	}
-	
+
 }
 
 .container {
@@ -1093,6 +1093,7 @@ footer {
 .lotterie-about {
 	margin-top: 50px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
