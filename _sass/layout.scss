@@ -804,7 +804,7 @@ nav > ul li a:active {
 }
 
 .feature:nth-child(-n+3) {
-    padding-top: 0px;   
+    padding-top: 0px;
 }
 
 .feature:nth-child(3n) {
@@ -1108,4 +1108,9 @@ footer {
 
 .sticker > img {
 	max-width: 150px;
+}
+
+// vuejs faq lib
+.accordion__item {
+	width: 800px;
 }
