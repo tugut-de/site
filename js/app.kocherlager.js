@@ -26,7 +26,7 @@
     },
     {
       title: "Was ist die rechtliche Grundlage?",
-      value: "Die gesetzliche Grundlage zur Durchführung der tugut Lotterie für Vereine basiert auf § 12 des Ausführungsgesetzes zum Glücksspielstaatsvertrags und dem jeweiligen Landesglücksspielgesetz. In Baden-Württemberg ist dieses z.B. durch die Bekanntmachung des Regierungspräsidiums Karlsruhe über die allgemeine Erlaubnis für öffentliche Lotterien und Ausspielungen geregelt."
+      value: "Die gesetzliche Grundlage zur Durchführung der tugut Lotterie für Vereine basiert auf § 15 des Landesglücksspielgesetz Baden-Württemberg."
     },
     {
       title: "Wie werden die Gewinnzahlen ermittelt?",

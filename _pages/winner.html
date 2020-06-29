@@ -1,0 +1,41 @@
+---
+title: showcase
+include_in_header: false
+include_in_footer: false
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+<div class="main">
+  <div class="claim-image">
+    {% include header.html %}
+      <div class="winner">
+        <div class="event">
+          <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_white.svg" alt=""/>
+          <div class="event__heading">
+            <div class="event__heading-white">für die Apis</div>
+            <div class="event__heading-white">Evangelischer Gemeinschaftsverband Württemberg e.V.</div>
+          </div>
+        </div>
+
+        <div class="claim">
+          <div>Glückwunsch an das Los mit der Nummer</div>
+          <div class="claim__number">4321</div>
+          <div>Bitte fordere den Gewinn direkt beim Verein an</div>
+        </div>
+
+        <div id="end-cta">
+          <input type="button" class="btn cta" value="Verein kontaktieren"
+                 onclick="location.href='mailto:info@tugut.de';"/>
+        </div>
+
+        {% include footer.html %}
+      </div>
+    </div>
+  </div>
+</body>
+</html>

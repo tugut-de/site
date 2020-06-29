@@ -1,0 +1,155 @@
+---
+title: Lotterie
+include_in_header: true
+include_in_footer: false
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+<div class="main">
+  <div class="content">
+    <div>
+      {% include header.html %}
+      <div class="lotterie">
+        <div class="lotterie__main">
+          <div class="lotterie__main-left">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/thumbsup.svg"/>
+          </div>
+          <div class="lotterie__main-right">
+            <div class="lotterie-text">
+              Wir bieten gemeinnützigen Organisationen eine neue und kostenlose Finanzierungsquelle: ​
+              </br>
+              <br>
+              <div class="lotterie-text-green">
+                Die tugut Lotterie.
+              </div>
+              <div class="text-heading">
+                Vorteile für gemeinnützige Organisationen​
+              </div>
+              <ul class="bulletpoints">
+                <li class="text">Wenig Aufwand und einfache Umsetzung​</li>
+                <li class="text">Steuerfreie Vereins-Einnahmen​</li>
+                <li class="text">Sicherstellung der glücksspielrechtlichen Vorgaben​</li>
+                <li class="text">Stärkung des Zusammenhalts​</li>
+                <li class="text">Eigene online Präsenz und</li>
+                <li class="text">Aufmerksamkeit in diversen Medien​</li>
+              </ul>
+              <div class="text-heading">
+                Vorteile für Unterstützer​
+              </div>
+              <ul class="bulletpoints">
+                <li class="text">Einfache und schnelle Unterstützungsmöglichkeit​</li>
+                <li class="text">Attraktive Mitmachaktion als Gewinnspiel​</li>
+                <li class="text">Unterstützung durch minimalen Einsatz​</li>
+                <li class="text">Anreiz durch Gewinnchance​</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <div class="lotterie__second">
+          <div class="lotterie__second-left">
+            <div class="lotterie-text">
+              Die tugut Lotterie
+            </div>
+            <div class="text-heading">
+              Verkauf von Losen
+            </div>
+            <div class="text-block">
+              Gemeinnützige Organisationen erhalten von tugut Lose, die durch die Organisation in einem definiertem Zeitraum verkauft werden.
+            </div>
+            <div class="text-block">
+              Die ausführende Organisation erhält max. 75% des Brutto-Losverkaufs als Reinertrag. Die Einnahmen sind für die Organisation steuerfrei*.
+            </div>
+            <div class="text-block">
+              Die übrigen 25% des Brutto-Losverkaufs fließen in die Gewinnsumme, woraus sich die Gewinne der Teilnehmer ergeben.
+            </div>
+            <div class="text-heading">
+              Informieren über die Aktion
+            </div>
+            <div class="text-block">
+              Der Verein wird während des Prozesses von tugut unterstützt und erhält Support auf allen Kanälen.
+            </div>
+            <div class="text-block">
+              Auf der tugut Website wird eine Aktions-Seite für die ausführende Organisation erstellt.​
+            </div>
+            <div style="font-size: 1.2rem;">
+              * Vorbehaltlich Zustimmung Finanzamt​
+            </div>
+          </div>
+          <div class="lotterie__second-right">
+            <img class="lotterie__second-right-image"
+                 src="{{ site.url }}{{ site.baseurl }}/assets/pie.png"/>
+          </div>
+        </div>
+        <div class="lotterie__third">
+          <div class="lotterie__third-left">
+            <img class="lotterie__third-left-image"
+                 src="{{ site.url }}{{ site.baseurl }}/assets/how.png"/>
+          </div>
+          <div class="lotterie__third-right">
+            <div class="text-heading">
+              Ziehung der Gewinner
+            </div>
+            <div class="text-block">
+              Die Ziehung der Gewinner erfolgt am vereinbarten Verlosungstermin. ​Unter den Loskäufern werden nach Verkaufsende die Gewinnzahlen auf der tugut Website veröffentlicht, an die Gewinne ausgeschüttet wird.
+            </div>
+            <div class="text-heading">
+              Rechtliche Grundlage
+            </div>
+            <div class="text-block">
+              Die tugut Lotterie erfolgt unter Einhaltung aller glücksspielrechtlichen Vorlagen und Vorschriften. Dabei beschreibt ein Gewinnplan, wie die erzielten Einnahmen aufgeteilt werden.
+            </div>
+            <div class="text-heading">
+              tugut Dienstleistung
+            </div>
+            <div class="text-block">
+              Als professioneller und zuverlässiger Partner bieten wir einen vollumfassenden Service aus einer Hand. Dieser beinhaltet:
+            </div>
+            <ul class="bulletpoints">
+              <li class="text">
+                Initiale Beratung
+              </li>
+              <li class="text">
+                Unterstützung bei der Anmeldung beim Finanzamt ​
+              </li>
+              <li class="text">
+                Begleitung bei der Durchführung und Nachbereitung
+              </li>
+              <li class="text">
+                Sicherstellung der glücksspielrechtlichen Durchführung​
+              </li>
+              <li class="text">
+                Ziehung der Gewinnzahlen mit sicherem Zufallszahlgenerator
+              </li>
+              <li class="text">
+                Temporäre Aktions-Website
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="lotterie__cta">
+          <div class="large-text">
+            Jetzt starten
+          </div>
+          <div class="lotterie-text">
+            Ihr wollt die Finanzierungsmöglichkeit für eure Organisation nutzen?​</br>
+            Dann schreibt uns eure noch offenen Fragen und lasst uns gemeinsam​</br>
+            die tugut Lotterie starten.</br>
+          </div>
+          <input type="button"
+                 style="margin-top: 50px;"
+                 class="btn cta-green" value="Wir machen mit"
+                 onclick="location.href='mailto:info@tugut.de';"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+</div>
+</body>
+</html>

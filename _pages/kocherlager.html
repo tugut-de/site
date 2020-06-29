@@ -39,23 +39,25 @@ include_in_footer: false
       {% include header.html %}
       <div class="container">
         <div id="what">
-          <div id="lotterie">
+          <div class="event">
             <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/>
-            <div>für die Apis</div>
-            <div>Evangelischer Gemeinschaftsverband Württemberg e.V.</div>
+            <div class="event__heading">für die Apis</div>
+            <div class="event__heading">Evangelischer Gemeinschaftsverband Württemberg e.V.</div>
           </div>
 
-        <div class="lotterie-about">
+        <div class="lotterie__about">
           <div>Mit den Einnahmen der Lotterie soll die Erneuerung der Wasserrutsche erfolgen.</div><br>
-          <div>Lose gibts es am Samstag, den 27.07.2020 und 04.07.2020 bei:</div><br>
+          <div>Lose gibts es am Samstag, den</div>
+          <div class="lotterie__about-bold">25.07.2020 und 01.08.2020</div>
+          <div>bei:</div>
           <div>Müllers Hofladen</div>
           <div>Herbststr.4+6</div>
           <div>73663 Berglen/Kottweil</div>
           <div><a href="http://muellershoflaedle.de">muellershoflaedle.de</a></div><br>
           <div><a href="https://goo.gl/maps/jkmxUKQVTrgQkhyC8">Anfahrt</a></div>
         </div>
-        <div class="lotterie-info">
-          <h1>Ziehung am Samstag, den 18.07.2020 in:</h1>
+        <div class="event-info">
+          <h1>Ziehung am Sonntag, den 02.08.2020 um 18 Uhr in:</h1>
         </div>
 
         </div>
@@ -78,10 +80,10 @@ include_in_footer: false
           </div>
         </div>
 
-        <div class="lotterie-info">
+        <div class="event-info">
           <h1>FAQ:</h1>
         </div>
-        <div class="lotterie-info">
+        <div class="event-info">
           <div id=app>
 
           </div>
@@ -129,7 +131,7 @@ include_in_footer: false
         var timeinterval = setInterval(updateClock, 1000);
       }
 
-      var deadline = new Date('2020-07-18T18:00:00');
+      var deadline = new Date('2020-08-02T18:00:00');
       initializeClock('timer', deadline);
     </script>
 

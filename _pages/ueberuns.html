@@ -40,11 +40,11 @@ include_in_footer: false
           </div>
         </div>
 
-        <div id="team">
+        <div class="members">
           {% for member in site.data.team %}
-          <div class="team-member">
-            <img class="team-member-img" src="{{ site.url }}{{ site.baseurl }}/assets/team/{{ member.id }}.jpg"/>
-            <img class="team-member-smile" src="{{ site.url }}{{ site.baseurl }}/assets/smile.svg"/>
+          <div class="member">
+            <img class="member__image" src="{{ site.url }}{{ site.baseurl }}/assets/team/{{ member.id }}.jpg"/>
+            <img class="member__smile" src="{{ site.url }}{{ site.baseurl }}/assets/smile.svg"/>
             <div>
               {{ member.name }}
             </div>

@@ -1,0 +1,116 @@
+---
+title: Spenden
+include_in_header: true
+include_in_footer: false
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+<div class="main">
+  <div class="content">
+    <div>
+      {% include header.html %}
+      <div class="container">
+        <div id="what">
+          <div id="what-is">
+            <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Teilnehmer
+          </div>
+        </div>
+        <div class="clubs">
+          {% for club in site.data.clubs %}
+            <div class="club">
+              <a href="{{ club.web }}" target="_blank">
+                <img class="club-image" src="{{ site.url }}{{ site.baseurl }}/assets/clubs/{{ club.image }}.png"/>
+              </a>
+              <div class="club-name">{{ club.name }}</div>
+              <div class="club-description">{{ club.description }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="sticker">
+        <img class="sticker__image" src="{{ site.url }}{{ site.baseurl }}/assets/sticker.png"/>
+      </div>
+
+      <div id="what">
+        <div id="what-is">
+          Wie kann ich Spenden sammeln?
+        </div>
+        <div id="howto">
+          <div class="howto-decorator">
+            <img class="howto-decorator-left"
+                 src="{{ site.url }}{{ site.baseurl }}/assets/illu-megafon.png"/>
+          </div>
+          <div class="howto-items">
+            <div class="howto-item">
+              <div class="howto-item-header">
+                1. Anlegen
+              </div>
+              <div class="howto-item-desc">
+                Wir legen dir kostenlos dein Vereinsprofil an
+              </div>
+            </div>
+            <div class="howto-item">
+              <div class="howto-item-header">
+                2. Teilen
+              </div>
+              <div class="howto-item-desc">
+                Teile dein Vereinsprofil mit Freunden und Bekannten
+              </div>
+            </div>
+          </div>
+          <div class="howto-decorator">
+            <img class="howto-decorator-right"
+                 src="{{ site.url }}{{ site.baseurl }}/assets/illu-konfetti.png"/>
+          </div>
+        </div>
+      </div>
+
+      <div id="what">
+        <div id="what-is">
+          Vorteile für deinen Verein
+        </div>
+        <div id="what-is-explanation">
+          Ein moderner Weg zur Finanzierung
+        </div>
+        <ul class="advantages">
+          <li class="advantage">
+            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
+            Sammle im Handumdrehen Spenden für deinen Verein​
+          </li>
+          <li class="advantage">
+            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
+            Erzeuge mehr Aufmerksamkeit und Reichweite​
+          </li>
+          <li class="advantage">
+            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
+            Persönliche Beratung und Unterstützung​ per Mail und Telefon
+          </li>
+          <li class="advantage">
+            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
+            Einfache und intuitiv bedienbare Plattform​
+          </li>
+          <li class="advantage">
+            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
+            Kostenlos - keine Anmeldegebühren und monatlichen Kosten
+          </li>
+        </ul>
+      </div>
+
+      <div id="end-cta">
+        <div id="what-is">
+          Mehr Infos?
+        </div>
+        <input type="button" class="btn cta-green" value="Schreib uns"
+               onclick="location.href='mailto:info@tugut.de';"/>
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+</div>
+</body>
+</html>
