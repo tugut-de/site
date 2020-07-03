@@ -1,12 +1,18 @@
 - id: dennis
   name: Dennis Schlegel
+  desc: Dennis verfügt über mehrjährige Erfahrung im Vertrieb und der Produktentwicklung von digitalen Lösungen. Er ist international aufgewachsen und hält ein M.A. Abschluss in International Business Development von der ESB Business School.
 - id: tilman
   name: Prof. Dr. Tilman Becker
+  desc: Tilman forscht seit 2004 zu den Themen Glücksspielrecht, Glücksspielmarkt und Glücksspielsucht und hat zahlreiche Veröffentlichungen zu diesen Themen vorzuweisen. Er hat als ausgewiesener Experte zu diesen Themen an zahlreichen Anhörungen vor Ausschüssen von Landtagen und der Bundesregierung teilgenommen.
 - id: michael
   name: Michael Munz
+  desc: Michael entwickelt seit mehreren Jahren digitale Geschäftsmodelle von der Idee zur Markteinführung und berät Unternehmen als Blockchain-Experte. Er verfügt über Startup-Erfahrung und hat einen Masterabschluss in Wirtschaftsinformatik der Hochschule Aalen.
 - id: janina
   name: Janina Bader
+  desc: Janina gestaltet als Designerin die UX/UI von tugut
 - id: lennart
   name: Lennart Kubach
+  desc: Lennart hat sich durch die Arbeit als freiberuflicher Designer sowie in Agenturen, wie Strichpunkt ein Spektrum an Fähigkeiten angeeignet und Erfahrungen in der Kreativbranche gesammelt. Mit einem Bachelor in der Kommunikationsgestaltung entwickelt er nachhaltige nutzerorientierte Gestaltungskonzepte.
 - id: axel
   name: Axel Hodler
+  desc: Axel verantwortet als Softwareentwickler die technische Umsetzung von tugut.
