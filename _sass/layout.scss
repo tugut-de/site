@@ -1413,6 +1413,10 @@ footer {
 			font-weight: bold;
 		}
 	}
+	&__message {
+		max-width: 600px;
+		margin-bottom: 50px;
+	}
 }
 
 .sticker {
