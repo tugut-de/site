@@ -45,8 +45,11 @@ include_in_footer: false
           <div class="member">
             <img class="member__image" src="{{ site.url }}{{ site.baseurl }}/assets/team/{{ member.id }}.jpg"/>
             <img class="member__smile" src="{{ site.url }}{{ site.baseurl }}/assets/smile.svg"/>
-            <div>
+            <div class="member__name">
               {{ member.name }}
+            </div>
+            <div class="member__desc">
+              {{ member.desc }}
             </div>
           </div>
           {% endfor %}
