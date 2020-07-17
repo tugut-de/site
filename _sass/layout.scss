@@ -137,6 +137,10 @@ header {
 	flex-direction: column;
 }
 
+.mobile-nav {
+	visibility: hidden;
+}
+
 #we {
 	margin-top: 50px;
 	display: flex;
@@ -586,6 +590,19 @@ input {
 	}
 }
 @media only screen and (max-width: 768px) {
+	.mobile-nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		visibility: visible;
+		align-items: center;
+		font-size: 2.5rem;
+		& &__link {
+			padding: 7px 0 7px 0;
+			color: black;
+		}
+	}
+
 	.claim {
 		&__right {
 			display: none;
@@ -720,7 +737,7 @@ input {
 	}
 
 	#what-left {
-		margin-top: 150px;
+		margin-top: 50px;
 		align-items: center;
 		text-align: center;
 	}

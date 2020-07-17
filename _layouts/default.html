@@ -19,6 +19,15 @@
                 Ein neuer, innovativer Weg zur Finanzierung<br>
                 gemeinnütziger Organisationen.
               </div>
+              <div class="mobile-nav">
+                {% assign pages = site.pages %}
+                {% for page in pages %}
+                {% if page.include_in_header == true %}
+                <a class="mobile-nav__link"
+                   href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+                {% endif %}
+                {% endfor %}
+              </div>
             </div>
 
             <div id="more">
