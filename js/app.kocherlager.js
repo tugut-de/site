@@ -2,7 +2,7 @@
   myItems:[
     {
       title: "Wie erfolgt die Benachrichtigung der Gewinner?",
-      value: "Die Benachrichtigung über die Ziehungsergebnisse der Lotterie erfolgt hier auf der Webseite am 18.07.2020. Zudem werden die Apis über einzelne Kommunikationskanäle über die Ziehungsergebnisse informieren."
+      value: "Die Benachrichtigung über die Ziehungsergebnisse der Lotterie erfolgt hier auf der Webseite am 02.08.2020 um 18 Uhhr. Zudem werden die Apis über einzelne Kommunikationskanäle über die Ziehungsergebnisse informieren."
     },
     {
       title: "Wie kann ich meinen Gewinn einfordern?",
@@ -35,6 +35,10 @@
     {
       title: "Wer ist für die Durchführung verantwortlich?",
       value: "Offizieller Veranstalter der Lotterie ist der Verein bzw. die gemeinnützige Organisation selbst. Die tugut GmbH berät und unterstützt als Dienstleister über die gesamte Durchführung der Lotterie hinweg."
+    },
+    {
+      title: "Wie sieht der Gewinnplan dieser Lotterie aus?",
+      value: "Anzahl Lose: 100 Lose; Preis pro Los: 5,00€; Die Einnahmen des Brutto-Losverkaufs werden wie folgt verteilt: Veranstalter (Die Apis): 75%; Gewinntopf: 25% (ein Hauptgewinn zu 125 €); Gewinnklassen: 1; Anzahl Gewinnerlose: 1; Gewinnchance: 1:100"
     },
     {
       title: "Wie kann ich eine tugut Lotterie durchführen",
