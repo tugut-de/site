@@ -2,7 +2,7 @@
   myItems:[
     {
       title: "Wie erfolgt die Benachrichtigung der Gewinner?",
-      value: "Die Benachrichtigung über die Ziehungsergebnisse der Lotterie erfolgt hier auf der Webseite am 02.08.2020 um 18 Uhhr. Zudem werden die Apis über einzelne Kommunikationskanäle über die Ziehungsergebnisse informieren."
+      value: "Die Benachrichtigung über die Ziehungsergebnisse der Lotterie erfolgt hier auf der Webseite am 02.08.2020 um 18 Uhr. Zudem werden die Apis über einzelne Kommunikationskanäle über die Ziehungsergebnisse informieren."
     },
     {
       title: "Wie kann ich meinen Gewinn einfordern?",
