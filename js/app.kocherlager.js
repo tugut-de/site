@@ -43,6 +43,10 @@
     {
       title: "Wie kann ich eine tugut Lotterie durchführen",
       value: "Jede gemeinnützige Organisation in Deutschland ist berechtigt eine eigene Lotterie durchzuführen. Bitte nehmen Sie einfach mit uns Kontakt auf und wir klären die nächsten Schritte zu Ihrer Lotterie."
+    },
+    {
+      title: "Fallen Steuern oder Abgaben an?",
+      value: "Nein. Wenn der Verein nicht umsatzsteuerpflichtig ist, fallen keine Abgaben oder Steuern an. Wenn der Verein umsatzsteuerpflichtig sein sollte, so fällt nur die ermäßigte Umsatzsteuer an. Es handelt sich bei den Einnahmen aus einer genehmigten Vereinslotterie um Einnahmen aus einem Zweckbetrieb. Es fallen weder Körperschaftssteuer noch Gewerbesteuer an (auch wenn der Freibetrag von 35 000 Euro überschritten wird). Bei einer genehmigten Lotterie erfolgt in der Regel auf Antrag eine Befreiung von der Rennwett- und Lotteriesteuer."
     }
   ]}}},i=c,l=r("2877"),p=Object(l["a"])(i,o,u,!1,null,null,null),f=p.exports;n["a"].config.productionTip=!1,new n["a"]({render:function(e){return e(f)}}).$mount("#app")}});
 //# sourceMappingURL=app.bfe37dd1.js.map
