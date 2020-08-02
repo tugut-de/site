@@ -67,7 +67,7 @@ include_in_footer: false
           <div><a href="https://goo.gl/maps/jkmxUKQVTrgQkhyC8">Anfahrt</a></div>
         </div>
         <div class="event-info">
-          <h1>Ziehung am Sonntag, den 02.08.2020 um 18 Uhr in:</h1>
+          <h1 id="timer-header">Ziehung am Sonntag, den 02.08.2020 um 18 Uhr in:</h1>
         </div>
 
         </div>
@@ -142,7 +142,12 @@ include_in_footer: false
       }
 
       var deadline = new Date('2020-08-02T18:00:00');
-      initializeClock('timer', deadline);
+      if (new Date() < deadline) {
+        initializeClock('timer', deadline);
+      } else {
+        document.getElementById("timer").style.display = "none"
+        document.getElementById("timer-header").innerHTML = "Ziehung hat stattgefunden. Bitte Seite neu laden."
+      }
     </script>
 
     <script src=/js/chunk-vendors.71704c1e.js></script><script src=/js/app.bfe37dd1.js></script>
