@@ -230,9 +230,12 @@ header {
 	}
 
 	&__grats {
-		line-height: 2.5rem;
 		font-size: 3rem;
 		margin: 10px 0 10px 0;
+	}
+
+	&__description {
+		line-height: 2.5rem;
 	}
 
 	&__number {
