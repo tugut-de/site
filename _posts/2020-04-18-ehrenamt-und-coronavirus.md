@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Ehrenamt und Coronavirus
 image: corona.png
 ---

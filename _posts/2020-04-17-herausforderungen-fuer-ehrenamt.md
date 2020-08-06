@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Herausforderungen für das Ehrenamt
 image: issues.png
 ---
