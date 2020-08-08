@@ -15,29 +15,25 @@ include_in_footer: false
     <div>
       {% include header.html %}
       <div class="container">
-        <div id="what">
-          <div id="what-is">
-            Blog
-          </div>
-        </div>
         <div class="posts">
           {% for post in site.posts %}
-          <article class="post markdown-body">
-            <a class="post__link" target="_self" href="{{ site.baseurl }}{{ post.url }}">
-              <h1>{{ post.title }}</h1>
-            </a>
+          <a class="posts__link" target="_self" href="{{ site.baseurl }}{{ post.url }}">
+            <article class="posts__item markdown-body">
             <div class="post-image">
               <img class="post-header-image" src="{{ site.url }}{{ site.baseurl }}/assets/posts/{{ post.image }}"/>
             </div>
-            <div class="post-content">{{ post.content }}</div>
+            <div class="posts__item-title">
+              {{ post.title }}
+            </div>
           </article>
+          </a>
           {% endfor %}
         </div>
       </div>
     </div>
   </div>
-  {% include footer.html %}
 </div>
+{% include footer.html %}
 </div>
 </body>
 </html>
