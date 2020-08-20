@@ -49,10 +49,6 @@
 		margin-bottom: 70px;
 		grid-column: 1/-1;
 	}
-
-	.post-header-image {
-		width: 300px;
-	}
 }
 
 header {
@@ -1454,9 +1450,8 @@ footer {
 }
 
 .post-header-image {
-	height: auto;
-	max-width: 450px !important;
-	max-height: 250px;
+	width: 350px;
+	height: 250px;
 	margin-bottom: 10px;
 }
 
