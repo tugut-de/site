@@ -2,6 +2,7 @@
 layout: post
 title: Warum spenden Menschen?
 image: why.png
+date: 2020-04-17 14:50:15
 ---
 René Beckers und Pamala Wieking arbeiten am Zentrum für Philanthropie der Universität Amsterdam. Für den Artikel [A Literature Review of Empirical Studies of Philantrophy: Eight Mechanism That Drive Charitable Giving](http://journals.sagepub.com/doi/abs/10.1177/0899764010380927) wurden über 500 Studien ausgewertet, in denen Wissenschaftler nach Spendenmotiven suchten. Insgesamt wurden acht Gründe identifiziert, warum Menschen spenden:
 

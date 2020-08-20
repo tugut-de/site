@@ -22,8 +22,13 @@ include_in_footer: false
             <div class="post-image">
               <img class="post-header-image" src="{{ site.url }}{{ site.baseurl }}/assets/posts/{{ post.image }}"/>
             </div>
-            <div class="posts__item-title">
-              {{ post.title }}
+            <div class="posts__content">
+              <div class="posts__item-title">
+                {{ post.title }}
+              </div>
+              <div class="posts__date">
+                <time>{{ post.date | date_to_string }}</time>
+              </div>
             </div>
           </article>
           </a>

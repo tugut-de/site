@@ -2,6 +2,7 @@
 layout: post
 title: Gemeinsam Gutes tun und gewinnen – die tugut Lotterie
 image: onboarding.png
+date: 2020-06-14 14:50:15
 ---
 
 Wir helfen deinem Verein eine eigene Lotterie durchzuführen. Die tugut Lotterie macht das Sammeln von Spenden in Form eines Gewinnspiels spielend leicht.

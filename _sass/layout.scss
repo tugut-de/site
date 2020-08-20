@@ -1402,6 +1402,16 @@ footer {
 	justify-content: space-around;
 	flex-flow: wrap;
 	margin-bottom: 300px;
+	&__content {
+		height: 150px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	&__date {
+		display: flex;
+		justify-content: center;
+	}
 	&__item {
 		margin: 50px 0 50px 0;
 		padding: 25px;
