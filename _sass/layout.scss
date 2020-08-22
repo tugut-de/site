@@ -1395,17 +1395,64 @@ footer {
 	font-size: 3rem;
 }
 
+.blogposts {
+	display: flex;
+	flex-flow :row wrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+@media only screen and (max-width: 768px) {
+	.blogposts {
+		display: inline;
+	}
+}
+
+.blogpost {
+	max-width: 400px;
+	flex: 0 1 48%;
+	display: flex;
+	margin: 50px 0 50px 0;
+	color: black !important;
+	padding: 25px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	&__title {
+		margin-bottom: 10px;
+		font-size: 2rem;
+		font-weight: bold;
+	}
+	&__preview {
+		margin-bottom: 10px;
+	}
+}
+
+.card-inner {
+	display: flex;
+	flex-direction: column;
+}
+
+.blogpost {
+	&__footer {
+		margin-top: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
 .posts {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-flow :row wrap;
 	justify-content: space-around;
-	flex-flow: wrap;
+	align-items: stretch;
 	margin-bottom: 300px;
-	&__content {
-		height: 150px;
+	&__footer {
 		display: flex;
-		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__cta {
+		display: flex;
 		justify-content: space-between;
 	}
 	&__date {
@@ -1413,19 +1460,19 @@ footer {
 		justify-content: center;
 	}
 	&__item {
+		display: flex;
+		flex-direction: column;
+		max-width: 400px;
+		height: 600px;
 		margin: 50px 0 50px 0;
 		padding: 25px;
-		max-width: 400px;
-		height: 500px !important;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 		&-title {
-			text-align: center;
-			font-size: 2.2rem;
+			margin-bottom: 10px;
+			font-size: 2rem;
 			font-weight: bold;
 		}
-	}
-	&__link {
-		text-decoration: none !important;
 	}
 }
 
@@ -1457,7 +1504,6 @@ footer {
 .post-image {
 	display: flex;
 	justify-content: center;
-	margin: 0 0 30px 0;
 }
 
 .post-header-image {

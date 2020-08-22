@@ -2,12 +2,11 @@
 layout: post
 title: Erste tugut Lotterie mit den Apis - Evangelischer Gemeinschaftsverband Württemberg e.V.
 image: first.png
+preview: Am Samstag den 26.07.2020 wurde gemeinsam mit dem Kocherlager, einem Zweig des Evangelischen Gemeinschaftsverbands Baden-Württembergs, die erste tugut Lotterie durchgeführt.
 date: 2020-08-18 14:50:15
 ---
 
-Am Samstag den 26.07.2020 wurde gemeinsam mit dem [Kocherlager](https://www.kocherlager.de/), ein Zweig des Evangelischen Gemeinschaftsverbands Baden-Württembergs, die erste tugut Lotterie durchgeführt. 
- 
-Das Kocherlager ist eine lokale, ehrenamtliche Initiative der Apis für Jugendliche. Das Kocherlager bietet diesen jährlich die Möglichkeit ihre Sommerferien gemeinschaftlich zu verbringen. Aufgrund der Corona Pandemie musste das diesjährige Lager leider abgesagt werden.  
+Das [Kocherlager](https://www.kocherlager.de) ist eine lokale, ehrenamtliche Initiative der Apis für Jugendliche. Das Kocherlager bietet diesen jährlich die Möglichkeit ihre Sommerferien gemeinschaftlich zu verbringen. Aufgrund der Corona Pandemie musste das diesjährige Lager leider abgesagt werden.  
  
 Aus diesem Grund haben wir gemeinsam mit dem Kocherlager die tugut Lotterie als Event-Veranstaltung durchgeführt, um so mit Spenden finanzielle Mittel für die Vereinskasse und Gestaltung des nächsten Kocherlagers zu sammeln.   
  

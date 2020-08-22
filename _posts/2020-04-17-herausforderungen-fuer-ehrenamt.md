@@ -3,9 +3,10 @@ layout: post
 title: Herausforderungen für das Ehrenamt
 image: issues.png
 date: 2020-04-17 14:50:15
+preview: In Deutschland hat das ehrenamtliche Engagement der Bürgerinnen und Bürger eine zentrale Bedeutung für den gesellschaftlichen Zusammenhalt im Land. Insgesamt gibt es bei uns über 600.000 Vereine und fast die Hälfte der Deutschen besitzen eine Vereinsmitgliedschaft.
 ---
 
-In Deutschland hat das ehrenamtliche Engagement der Bürgerinnen und Bürger eine zentrale Bedeutung für den gesellschaftlichen Zusammenhalt im Land. Insgesamt gibt es bei uns über 600.000 Vereine und fast die Hälfte der Deutschen besitzen eine Vereinsmitgliedschaft. Jeder fünfte Bundesbürger verbringt seine Freizeit in einem Sportverein. Daneben gibt es zahlreiche Hobby- und Interessenvereine, Musik- und Gesangsvereine oder auch Kleingarten- sowie Tierzüchtervereine und Kegelklubs.     
+Jeder fünfte Bundesbürger verbringt seine Freizeit in einem Sportverein. Daneben gibt es zahlreiche Hobby- und Interessenvereine, Musik- und Gesangsvereine oder auch Kleingarten- sowie Tierzüchtervereine und Kegelklubs.
 
 Der gemeinsame Nenner, der all diese Vereine verbindet und trägt, ist das ehrenamtliche Engagement der Menschen hinter diesen. Diese werden in ihrer Arbeit in und um den Verein mit immer größeren Herausforderungen konfrontiert. Der Normenkontrollrat Baden-Württemberg hat die Aufgabe, die Landesregierung bei der Umsetzung ihrer Maßnahmen auf den Gebieten der Bürokratievermeidung, des Bürokratieabbaus und der besseren Rechtsetzung zu beraten und zu unterstützen. Am 4. Dezember 2019 hat der Normenkontrollrat Ministerpräsident Winfried Kretschmann einen Bericht mit Vorschlägen zur Entlastung von Vereinen und Ehrenamtlichen von Bürokratie übergeben.  
 
