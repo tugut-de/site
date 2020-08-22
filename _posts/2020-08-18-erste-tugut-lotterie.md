@@ -17,4 +17,13 @@ Für die Durchführung der tugut Lotterie haben wir vorab gemeinsam mit Daniel P
  
 Das Kocherlager hat über ihre Webseite und Mitglieder auf die geplante Veranstaltung aufmerksam gemacht. Am Veranstaltungstag haben Mitglieder und Freunde des Kocherlagers den Losverkauf vor Ort durchgeführt und in kürzester Zeit alle Lose unter Einhaltung aktueller Hygienevorschriften verkauft. Dabei konnten sie die Gelegenheit nutzen, um die Öffentlichkeit über ihre Initiative zu informieren. Schon bald nach der offiziellen Ziehung der Gewinnzahlen konnten die Gewinne an glückliche Gewinner übergeben werden.  
  
-Die Zusammenarbeit mit dem Kocherlager der Apis hat uns sehr viel Spaß gemacht. Es freut uns, dass wir mit der tugut Lotterie einen positiven Beitrag zu der Initiative leisten konnten. Gemeinsam planen wir schon die nächste Aktion, dieses Mal auch mit digitalem Losverkauf. Das positive Feedback ist eine Bestätigung für uns mit der tugut Lotterie eine attraktive Lösung für gemeinnützige Vereine zu bieten.    
+Die Zusammenarbeit mit dem Kocherlager der Apis hat uns sehr viel Spaß gemacht. Es freut uns, dass wir mit der tugut Lotterie einen positiven Beitrag zu der Initiative leisten konnten. Gemeinsam planen wir schon die nächste Aktion, dieses Mal auch mit digitalem Losverkauf. Das positive Feedback ist eine Bestätigung für uns mit der tugut Lotterie eine attraktive Lösung für gemeinnützige Vereine zu bieten.
+
+<div class="post-image">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/first_3.png"/>
+</div>
+
+<div class="post-image">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/first_2.png"/>
+</div>
+
