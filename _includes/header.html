@@ -1,40 +1,23 @@
-<header class="header">
-	<div class="logo">
-		<div class="header-content">
-			<div class="header-content__logo">
-			{% if page.url != '/' %}
-			<a href="/" target="_self"><img src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"></a>
-			{% else %}
-			<img src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg">
-			{% endif %}
-			</div>
-			{% if page.url == '/lotterie/' %}
-			<div class="header-content__text">
-				Gemeinsam Gutes tun und gewinnen
-			</div>
-			{% elsif page.url == '/winner/' %}
-			<div class="header-content__text">
-				Gutes tun und gewinnen
-			</div>
-			{% elsif page.url == '/spenden/' %}
-			<div class="header-content__text">
-				Gemeinsam Gutes tun
-			</div>
-			{% else %}
-			<div class="header-content__text">
-				für gemeinnützige Organisationen
-			</div>
-			{% endif %}
-		</div>
-	</div>
-	<nav class="scroll">
-		<ul>
-			{% assign pages = site.pages %}
-			{% for page in pages %}
-				{% if page.include_in_header == true %}
-				<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>
-				{% endif %}
-			{% endfor %}
-		</ul>
-	</nav>
-</header>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="/" target="_self">
+    <div class="navbar-logo">
+      <img src="/assets/logo_green.svg" width="90" height="30" class="d-inline-block align-top" alt="">
+      <div class="navbar-logo__text">für gemeinnützige Organisationen</div>
+    </div>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+          aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse navbar-links" id="collapsibleNavbar">
+    <div class="navbar-nav">
+      {% assign pages = site.pages %}
+      {% for page in pages %}
+      {% if page.include_in_header == true %}
+      <a class="nav-item nav-link text-dark" href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</nav>
+

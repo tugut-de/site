@@ -4,54 +4,33 @@
 {% include head.html %}
 
 <body>
+{% include header.html %}
+<div class="main">
+  <h1 class="main__slogan">
+    Ein neuer, innovativer Weg zur Finanzierung von Vereinen
+  </h1>
+  <h2 class="main__slogan2">
+    Sammle im Handumdrehen Spenden für deinen Verein
+    mit der tugut Lotterie
+  </h2>
+  <button type="button" class="btn btn-primary"
+          onclick="location.href='mailto:info@tugut.de';">
+    <span style="color: white;">Mehr Infos?</span>
+  </button>
+
+  <div class="title">
+    <img class="title__logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Konzept
+  </div>
+</div>
+
 <div class="main">
   <div class="content">
     <div class="imageWrapper">
       <div class="headerBackground">
         <div>
-          {% include header.html %}
           <div class="container">
-            <div class="what">
-              <div class="what-is">
-                Ein neuer, innovativer Weg zur Finanzierung
-                von Vereinen
-              </div>
-              <div class="mobile-nav">
-                {% assign pages = site.pages %}
-                {% for page in pages %}
-                {% if page.include_in_header == true %}
-                <a class="mobile-nav__link"
-                   href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
-                {% endif %}
-                {% endfor %}
-              </div>
-            </div>
-
-            <div id="more">
-              <div id="what-left">
-                <div class="what-is-left-explanation">
-                  Sammle im Handumdrehen Spenden für deinen Verein
-                  mit der tugut Lotterie
-                </div>
-                <input type="button"
-                       class="btn cta-green" value="Mehr Infos?"
-                       onclick="location.href='mailto:info@tugut.de';"/>
-              </div>
-              <div class="what-right">
-                <div id="what-is">
-                </div>
-                <div class="what-is-left-explanation">
-                  <a target="_self" href="{{ site.url }}{{ site.baseurl }}/kocherlager">
-                  <img src="{{ site.url }}{{ site.baseurl }}/assets/sample_preview.png"
-                       class="los">
-                  </a>
-                </div>
-              </div>
-            </div>
-
 
             <div id="concept">
-              <img class="text-logo-left" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Konzept
             </div>
 
             <div id="concept-explanation">

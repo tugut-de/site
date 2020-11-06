@@ -1,79 +1,21 @@
-// Layout and grids
-$content-width: 1170px;
-
-// Fonts and sizes
-$primary-text-color: #000000;
-$tugut-green: #50DD93;
-$side-margin: 90px;
-$side-margin-mobile: 10px;
-$tugut-logo-top-margin: 10px;
-$tugut-member-max-width: 200px;
-
-/* work-sans-regular - latin */
 @font-face {
 	font-family: 'DM Sans';
 	font-style: normal;
 	font-weight: 400;
-	src: url('/fonts/dm-sans-v4-latin-regular.eot'); /* IE9 Compat Modes */
-	src: local(''),
-	url('/fonts/dm-sans-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	url('/fonts/dm-sans-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-	url('/fonts/dm-sans-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
-	url('/fonts/dm-sans-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-	url('/fonts/dm-sans-v4-latin-regular.svg#DMSans') format('svg'); /* Legacy iOS */
+	font-display: swap;
+	src: url('/fonts/dm-sans-v4-latin-regular.ttf') format('truetype');
 }
 
 html {
-	font-size: 62.5%;
-	line-height: 1;
-	font-family: 'DM Sans'
+	font-family: 'DM Sans', sans-serif;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-body {
-	font-size: 2rem;
-	background-color: $body-color;
-}
+$font-family-sans-serif: 'DM Sans';
+$font-family-monospace: 'DM Sans';
+$primary: #50DD93;
 
-h1 {
-	font-size: 3rem;
-}
+@import 'bootstrap';
 
-h2 {
-	font-size: 2rem;
-}
-
-h3 {
-    font-size: 2rem;
-}
-
-// Better font rendering
-body {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	background-color: $body-color;
-}
-
-a:link,
-a:hover,
-a:visited,
-a:active {
-	color: $accent-color;
-	text-decoration: none;
-}
-
-// Shadows
-$drop-shadow: 	drop-shadow(0px 5px 10px rgba(#000, 0.1))
-				drop-shadow(0px 1px 1px rgba(#000, 0.2)
-				);
-
-// Various resets
-*,
-*::before,
-*::after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-
-	margin: 0;
-	padding: 0;
-}
