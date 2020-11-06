@@ -11,13 +11,10 @@
         <div>
           {% include header.html %}
           <div class="container">
-            <div id="what">
-              <div id="what-is">
-                Was ist <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/>?
-              </div>
-              <div id="what-is-explanation">
-                Ein neuer, innovativer Weg zur Finanzierung<br>
-                gemeinnütziger Organisationen.
+            <div class="what">
+              <div class="what-is">
+                Ein neuer, innovativer Weg zur Finanzierung
+                von Vereinen
               </div>
               <div class="mobile-nav">
                 {% assign pages = site.pages %}
@@ -32,21 +29,16 @@
 
             <div id="more">
               <div id="what-left">
-                <div id="what-is">
-                  <img class="text-logo-left" src="{{ site.url }}{{ site.baseurl }}/assets/logo_white.svg"/> für Vereine
-                </div>
                 <div class="what-is-left-explanation">
-                  Sammle im Handumdrehen Spenden für deinen Verein</br>
-                  Mit deiner eigenen Spenden-Kampagne oder</br>
-                  Mit der tugut Lotterie für deinen Verein
+                  Sammle im Handumdrehen Spenden für deinen Verein
+                  mit der tugut Lotterie
                 </div>
                 <input type="button"
-                       class="btn cta" value="Mehr Infos?"
+                       class="btn cta-green" value="Mehr Infos?"
                        onclick="location.href='mailto:info@tugut.de';"/>
               </div>
               <div class="what-right">
                 <div id="what-is">
-                  Aktuelle Lotterien
                 </div>
                 <div class="what-is-left-explanation">
                   <a target="_self" href="{{ site.url }}{{ site.baseurl }}/kocherlager">
@@ -59,7 +51,7 @@
 
 
             <div id="concept">
-              <img class="text-logo-left" src="{{ site.url }}{{ site.baseurl }}/assets/logo_white.svg"/> Konzept
+              <img class="text-logo-left" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Konzept
             </div>
 
             <div id="concept-explanation">
@@ -91,14 +83,6 @@
                   deinem Verein helfen?
                 </div>
                 <div class="conceptitem__desc">
-                  Gemeinsam <a target="_self" href="{{ site.url }}{{ site.baseurl }}/spenden">Gutes tun</a>
-                </div>
-                <div class="conceptitem__desc">
-                  Dein Verein wird auf der tugut Plattform gelistet und erhält
-                  somit mehr Sichtbarkeit und Aufmerksamkeit. Unterstützer
-                  spenden über tugut direkt an deinen Verein.
-                </div>
-                <div class="conceptitem__desc">
                   Gemeinsam <a target="_self" href="{{ site.url }}{{ site.baseurl }}/lotterie">Gutes tun und gewinnen</a>
                 </div>
                 <div class="conceptitem__desc">
@@ -110,11 +94,11 @@
 
             <div class="testimonials">
               <div class="testimonials__heading">
-                Stimmen der Nutzer
+                Stimmen der Vereine
               </div>
               <div class="testimonial">
                 <div class="testimonial__quote">
-                  "Leider mussten wir wegen Corona dieses Jahr unser Lager absagen. Dank tugut haben wir aber eine tolle Möglichkeit gefunden, um trotzdem etwas Geld für unsere Zeltlagerkasse einzusammeln und wichtige Anschaffungen für das nächste Jahr zu tätigen. Vielen Dank nochmal an das ganze tugut-Team für die tolle Unterstützung und großartige Idee"
+                  "Leider mussten wir wegen Corona dieses Jahr unser Lager absagen. Dank tugut haben wir aber eine tolle Möglichkeit gefunden, um trotzdem etwas Geld für unsere Zeltlagerkasse einzusammeln und wichtige Anschaffungen für das nächste Jahr zu tätigen."
                 </div>
                 <div>
                   <img class="testimonial__image" src="{{ site.url }}{{ site.baseurl }}/assets/daniel.png"/>
@@ -133,12 +117,8 @@
               </div>
             </div>
 
-            <div class="sticker">
-              <img class="sticker__image" src="{{ site.url }}{{ site.baseurl }}/assets/sticker.png"/>
-            </div>
-
-            <div id="end-cta">
-              <div id="what-is">
+            <div class="end-cta">
+              <div class="end-cta__title">
                 Mehr Infos?
               </div>
               <input type="button" class="btn cta-green" value="Schreib uns"
