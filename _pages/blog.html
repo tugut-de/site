@@ -11,36 +11,32 @@ include_in_footer: false
 
 <body>
 
-<div class="main">
-  <div class="content">
-    <div>
-      {% include header.html %}
-      <div class="container">
-        <div class="blogposts">
-          {% for post in site.posts %}
-          <a class="blogpost markdown-body" target="_self" href="{{ site.baseurl }}{{ post.url }}">
-            <div class="card-inner">
-              <div class="post-image">
-                <img class="post-header-image" src="{{ site.url }}{{ site.baseurl }}/assets/posts/{{ post.image }}"/>
-              </div>
-              <div class="blogpost__title">
-                {{ post.title }}
-              </div>
-              <div class="blogpost__preview">
-                {{ post.preview }}
-              </div>
-              <div class="blogpost__footer">
-                <time>{{ post.date | date_to_string }}</time>
-                <input type="button" class="btn cta-green" value="Weiterlesen">
-              </div>
-            </div>
-          </a>
-          {% endfor %}
-        </div>
+{% include header.html %}
+<div class="blogposts">
+  {% for post in site.posts %}
+  <a class="blogpost markdown-body"
+     style="text-decoration: none;"
+     target="_self" href="{{ site.baseurl }}{{ post.url }}">
+    <div class="card-inner">
+      <div class="post-image">
+        <img class="post-header-image" src="{{ site.url }}{{ site.baseurl }}/assets/posts/{{ post.image }}"/>
+      </div>
+      <div class="blogpost__title">
+        {{ post.title }}
+      </div>
+      <div class="blogpost__preview">
+        {{ post.preview }}
+      </div>
+      <div class="blogpost__footer">
+        <time>{{ post.date | date_to_string }}</time>
+        <button type="button" class="btn btn-primary">
+          <span style="color: white;">Weiterlesen</span>
+        </button>
       </div>
     </div>
-  </div>
-  {% include footer.html %}
+  </a>
+  {% endfor %}
 </div>
+{% include footer.html %}
 </body>
 </html>
