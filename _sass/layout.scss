@@ -27,6 +27,15 @@
   }
 }
 
+.divider {
+  max-width: 200px;
+  &__hr {
+    margin-top: 20px;
+    border-top: 10px solid $primary;
+    border-radius: 5px;
+  }
+}
+
 .possibilities {
   margin-bottom: 150px;
 }
