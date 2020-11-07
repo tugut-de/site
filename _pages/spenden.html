@@ -10,73 +10,68 @@ include_in_footer: false
 {% include head.html %}
 
 <body>
+{% include header.html %}
+
 <div class="main">
-  <div class="content">
-    <div>
-      {% include header.html %}
-      <div class="container">
-        <div id="what">
-          <div id="what-is">
-            <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Teilnehmer
-          </div>
-        </div>
-        <div class="clubs">
-          {% for club in site.data.clubs %}
-            <div class="club">
-              <a href="{{ club.web }}" target="_blank">
-                <img class="club-image" src="{{ site.url }}{{ site.baseurl }}/assets/clubs/{{ club.image }}.png"/>
-              </a>
-              <div class="club-name">{{ club.name }}</div>
-              <div class="club-description">{{ club.description }}</div>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-      <div class="sticker">
-        <img class="sticker__image" src="{{ site.url }}{{ site.baseurl }}/assets/sticker.png"/>
-      </div>
+  <div class="title">
+    <img class="title__logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Teilnehmer
+  </div>
+  <div class="clubs">
+    {% for club in site.data.clubs %}
+    <div class="club">
+      <a href="{{ club.web }}" target="_blank">
+        <img class="club-image" src="{{ site.url }}{{ site.baseurl }}/assets/clubs/{{ club.image }}.png"/>
+      </a>
+      <div class="club-name">{{ club.name }}</div>
+      <div class="club-description">{{ club.description }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="title mobile-center">
+    Vorteile für euren Verein
+  </div>
+  <div class="features">
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Wenig Aufwand und einfache Umsetzung
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Sammle im Handumdrehen Spenden für deinen Verein
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Erzeuge mehr Aufmerksamkeit und Reichweite
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Persönliche Beratung und Unterstützung per Mail und Telefon
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Einfache und intuitiv bedienbare Plattform
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Kostenlos - keine Anmeldegebühren und monatlichen Kosten
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+    </ul>
+  </div>
 
-      <div id="what">
-        <div id="what-is">
-          Vorteile für deinen Verein
-        </div>
-        <div id="what-is-explanation">
-          Ein moderner Weg zur Finanzierung
-        </div>
-        <ul class="advantages">
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Sammle im Handumdrehen Spenden für deinen Verein​
-          </li>
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Erzeuge mehr Aufmerksamkeit und Reichweite​
-          </li>
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Persönliche Beratung und Unterstützung​ per Mail und Telefon
-          </li>
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Einfache und intuitiv bedienbare Plattform​
-          </li>
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Kostenlos - keine Anmeldegebühren und monatlichen Kosten
-          </li>
-        </ul>
-      </div>
-
-      <div id="end-cta">
-        <div id="what-is">
-          Mehr Infos?
-        </div>
-        <input type="button" class="btn cta-green" value="Schreib uns"
-               onclick="location.href='mailto:info@tugut.de';"/>
-      </div>
+  <div class="title">
+    Mehr Infos?
+  </div>
+  <div class="end-cta">
+    <div class="center">
+      <button type="button" class="btn btn-primary"
+              onclick="location.href='mailto:info@tugut.de';">
+        <span style="color: white;">Schreib uns</span>
+      </button>
     </div>
   </div>
-  {% include footer.html %}
 </div>
+
+{% include footer.html %}
 </body>
 </html>
