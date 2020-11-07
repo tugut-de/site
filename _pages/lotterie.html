@@ -10,163 +10,162 @@ include_in_footer: false
 {% include head.html %}
 
 <body>
+{% include header.html %}
 <div class="main">
-  <div class="content">
-    <div>
-      {% include header.html %}
-      <div class="container">
-        <div class="title">
-          Die <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/>Lotterie
+  <div class="title">
+    Die <img class="title__logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/>Lotterie
+  </div>
+  <div class="features">
+    <h3 class="mt-4 mb-4">
+      Vorteile für Vereine
+    </h3>
+
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Wenig Aufwand und einfache Umsetzung
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Steuerfreie Vereinseinnahmen
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Sicherstellung der glücksspielrechtlichen Vorgaben<
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Stärkung des Zusammenhalts
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Eigene online Präsenz und Aufmerksamkeit in diversen Medien
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+    </ul>
+
+    <h3 class="mt-4 mb-4">
+      Vorteile für Unterstützer
+    </h3>
+
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Einfache und schnelle Unterstützungsmöglichkeit
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Attraktive Mitmachaktion als Gewinnspiel
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Unterstützung durch minimalen Einsatz
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Anreiz durch Gewinnchance
+        <span class="badge badge-primary badge-pill badge-white">✔</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="title">
+    Ablauf
+  </div>
+  <div class="column">
+    <div class="row">
+      <div class="col-md-7">
+        <h4>Verkauf von Losen</h4>
+        <div class="mt-2 mb-2">
+          Gemeinnützige Organisationen erhalten von tugut Lose, die durch die Organisation in einem definiertem Zeitraum verkauft werden.
         </div>
-        <div class="subtitle">
-          Vorteile für Vereine
+        <div class="mt-2 mb-2">
+          Die ausführende Organisation erhält max. 75% des Brutto-Losverkaufs als Reinertrag. Die Einnahmen sind für die Organisation steuerfrei*.
         </div>
-        <ul class="advantages">
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Wenig Aufwand und einfache Umsetzung
-          </li>
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Steuerfreie Vereinseinnahmen
-          </li>
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Sicherstellung der glücksspielrechtlichen Vorgaben<
-          </li>
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Stärkung des Zusammenhalts
-          </li>
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Eigene online Präsenz und Aufmerksamkeit in diversen Medien
-          </li>
-        </ul>
-        <div class="subtitle">
-          Vorteile für Unterstützer
+        <div class="mt-2 mb-2">
+          Die übrigen 25% des Brutto-Losverkaufs fließen in die Gewinnsumme, woraus sich die Gewinne der Teilnehmer ergeben.
         </div>
-        <ul class="advantages">
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Einfache und schnelle Unterstützungsmöglichkeit
-          </li>
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Attraktive Mitmachaktion als Gewinnspiel
-          </li>
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Unterstützung durch minimalen Einsatz
-          </li>
-          <li class="advantage">
-            <img class="advantage__check" src="{{ site.url }}{{ site.baseurl }}/assets/check.svg"/>
-            Anreiz durch Gewinnchance
-          </li>
-        </ul>
+        <h4>
+          Informieren über die Aktion
+        </h4>
+        <div class="mt-2 mb-2">
+          Der Verein wird während des Prozesses von tugut unterstützt und erhält Support auf allen Kanälen.
+        </div>
+        <div class="mt-2 mb-2">
+          Auf der tugut Website wird eine Aktions-Seite für die ausführende Organisation erstellt.
+        </div>
+        <div style="font-size: 0.8rem;">
+          * Vorbehaltlich Zustimmung Finanzamt
+        </div>
       </div>
-      <div class="lotterie">
-        <div class="title">
-          <div class="tugut-title">
-            Ablauf
-          </div>
+      <div class="col-md-5 features__right">
+        <img class="features__image"
+             src="{{ site.url }}{{ site.baseurl }}/assets/pie.png"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5 features__left">
+        <img class="features__image"
+             src="{{ site.url }}{{ site.baseurl }}/assets/how.png"/>
+      </div>
+      <div class="col-md-7">
+        <h4>Verkauf von Losen</h4>
+        <div class="mt-2 mb-2">
+          Die Ziehung der Gewinner erfolgt am vereinbarten Verlosungstermin. Unter den Loskäufern werden nach Verkaufsende die Gewinnzahlen auf der tugut Website veröffentlicht, an die Gewinne ausgeschüttet wird.
         </div>
-        <div class="lotterie__second">
-          <div class="lotterie__second-left">
-            <div class="text-heading">
-              Verkauf von Losen
-            </div>
-            <div class="text-block">
-              Gemeinnützige Organisationen erhalten von tugut Lose, die durch die Organisation in einem definiertem Zeitraum verkauft werden.
-            </div>
-            <div class="text-block">
-              Die ausführende Organisation erhält max. 75% des Brutto-Losverkaufs als Reinertrag. Die Einnahmen sind für die Organisation steuerfrei*.
-            </div>
-            <div class="text-block">
-              Die übrigen 25% des Brutto-Losverkaufs fließen in die Gewinnsumme, woraus sich die Gewinne der Teilnehmer ergeben.
-            </div>
-            <div class="text-heading">
-              Informieren über die Aktion
-            </div>
-            <div class="text-block">
-              Der Verein wird während des Prozesses von tugut unterstützt und erhält Support auf allen Kanälen.
-            </div>
-            <div class="text-block">
-              Auf der tugut Website wird eine Aktions-Seite für die ausführende Organisation erstellt.​
-            </div>
-            <div style="font-size: 1.2rem;">
-              * Vorbehaltlich Zustimmung Finanzamt​
-            </div>
-          </div>
-          <div class="lotterie__second-right">
-            <img class="lotterie__second-right-image"
-                 src="{{ site.url }}{{ site.baseurl }}/assets/pie.png"/>
-          </div>
+        <h4>Rechtliche Grundlage</h4>
+        <div class="mt-2 mb-2">
+          Die tugut Lotterie erfolgt unter Einhaltung aller glücksspielrechtlichen Vorlagen und Vorschriften. Dabei beschreibt ein Gewinnplan, wie die erzielten Einnahmen aufgeteilt werden.
         </div>
-        <div class="lotterie__third">
-          <div class="lotterie__third-left">
-            <img class="lotterie__third-left-image"
-                 src="{{ site.url }}{{ site.baseurl }}/assets/how.png"/>
-          </div>
-          <div class="lotterie__third-right">
-            <div class="text-heading">
-              Ziehung der Gewinner
-            </div>
-            <div class="text-block">
-              Die Ziehung der Gewinner erfolgt am vereinbarten Verlosungstermin. ​Unter den Loskäufern werden nach Verkaufsende die Gewinnzahlen auf der tugut Website veröffentlicht, an die Gewinne ausgeschüttet wird.
-            </div>
-            <div class="text-heading">
-              Rechtliche Grundlage
-            </div>
-            <div class="text-block">
-              Die tugut Lotterie erfolgt unter Einhaltung aller glücksspielrechtlichen Vorlagen und Vorschriften. Dabei beschreibt ein Gewinnplan, wie die erzielten Einnahmen aufgeteilt werden.
-            </div>
-            <div class="text-heading">
-              tugut Dienstleistung
-            </div>
-            <div class="text-block">
-              Als professioneller und zuverlässiger Partner bieten wir einen vollumfassenden Service aus einer Hand. Dieser beinhaltet:
-            </div>
-            <ul class="bulletpoints">
-              <li class="text">
-                Initiale Beratung
-              </li>
-              <li class="text">
-                Unterstützung bei der Anmeldung beim Finanzamt ​
-              </li>
-              <li class="text">
-                Begleitung bei der Durchführung und Nachbereitung
-              </li>
-              <li class="text">
-                Sicherstellung der glücksspielrechtlichen Durchführung​
-              </li>
-              <li class="text">
-                Ziehung der Gewinnzahlen mit sicherem Zufallszahlgenerator
-              </li>
-              <li class="text">
-                Temporäre Aktions-Website
-              </li>
-            </ul>
-          </div>
+        <h4>tugut Dienstleistung</h4>
+        <div class="mt-2 mb-2">
+          Als professioneller und zuverlässiger Partner bieten wir einen vollumfassenden Service aus einer Hand. Dieser beinhaltet:
         </div>
-        <div class="lotterie__cta">
-          <div class="large-text">
-            Jetzt starten
-          </div>
-          <div class="lotterie-text">
-            Ihr wollt die Finanzierungsmöglichkeit für euren Verein nutzen?</br>
-            Dann schreibt uns eure noch offenen Fragen und lasst uns gemeinsam</br>
-            die tugut Lotterie starten.</br>
-          </div>
-          <input type="button"
-                 style="margin-top: 50px;"
-                 class="btn cta-green" value="Wir machen mit"
-                 onclick="location.href='mailto:info@tugut.de';"/>
-        </div>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Initiale Beratung
+            <span class="badge badge-primary badge-pill badge-white">✔</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Unterstützung bei der Anmeldung beim Finanzamt
+            <span class="badge badge-primary badge-pill badge-white">✔</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Begleitung bei der Durchführung und Nachbereitung
+            <span class="badge badge-primary badge-pill badge-white">✔</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Sicherstellung der glücksspielrechtlichen Durchführung
+            <span class="badge badge-primary badge-pill badge-white">✔</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Ziehung der Gewinnzahlen mit sicherem Zufallszahlgenerator
+            <span class="badge badge-primary badge-pill badge-white">✔</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Temporäre Aktions-Website
+            <span class="badge badge-primary badge-pill badge-white">✔</span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-  {% include footer.html %}
+  <div class="title">
+    Jetzt starten
+  </div>
+  <div class="end-cta">
+    <div class="center mt-3 mb-3">
+      Ihr wollt die Finanzierungsmöglichkeit für euren Verein nutzen?</br>
+      Dann schreibt uns eure noch offenen Fragen und lasst uns gemeinsam</br>
+      die tugut Lotterie starten.</br>
+    </div>
+    <div class="center">
+      <button type="button" class="btn btn-primary"
+              onclick="location.href='mailto:info@tugut.de';">
+        <span style="color: white;">Wir sind dabei</span>
+      </button>
+    </div>
+  </div>
 </div>
+{% include footer.html %}
+
 </body>
 </html>
