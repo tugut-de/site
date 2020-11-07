@@ -6,18 +6,27 @@
 <body>
 {% include header.html %}
 <div class="main">
-  <h1 class="main__slogan">
-    Ein neuer, innovativer Weg zur Finanzierung von Vereinen
-  </h1>
-  <h2 class="main__slogan2">
-    Sammle im Handumdrehen Spenden für deinen Verein
-    mit der tugut Lotterie
-  </h2>
-  <div class="start-cta">
-    <button type="button" class="btn btn-primary"
-            onclick="location.href='mailto:info@tugut.de';">
-      <span style="color: white;">Mehr Infos?</span>
-    </button>
+  <div class="column">
+    <div class="hero row">
+      <div class="col-md-7">
+        <h1 class="main__slogan">
+          Ein neuer, innovativer Weg zur Finanzierung von Vereinen
+        </h1>
+        <h2 class="main__slogan2">
+          Sammle im Handumdrehen Spenden für deinen Verein
+          mit der tugut Lotterie
+        </h2>
+        <div class="start-cta">
+          <button type="button" class="btn btn-primary"
+                  onclick="location.href='mailto:info@tugut.de';">
+            <span style="color: white;">Mehr Infos?</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <img class="hero__image" src="{{ site.url }}{{ site.baseurl }}/assets/posts/first.png">
+      </div>
+    </div>
   </div>
 
   <div class="title">

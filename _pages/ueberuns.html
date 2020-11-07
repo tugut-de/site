@@ -10,54 +10,49 @@ include_in_footer: false
 {% include head.html %}
 
 <body>
+{% include header.html %}
 <div class="main">
-  <div class="content">
-    <div>
-      {% include header.html %}
-      <div class="container">
-        <div id="what">
-          <div class="title">
-            Über <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/>
-          </div>
-          <div id="about-explanation">
-            Gemeinsam Gutes tun
-          </div>
-          <div id="about">
-            tugut ist Deutschlands Spendenplattform speziell für Vereine.​ Das ehrenamtliche Engagement der Bürgerinnen und Bürger hat eine zentrale Bedeutung für den gesellschaftlichen Zusammenhalt in Deutschland. Sowohl temporäres als auch langjähriges Engagement soll dauerhaft gestärkt und gefördert werden.​ Wir
-            setzen uns für eine Gesellschaft ein, in der gemeinnützige Organisationen die Mittel haben, sich durch Eigeninitiative selbst zu fördern und nachhaltig zur eigenen Spenden-Finanzierung beizutragen.
-            Hierzu wollen wir einen Beitrag leisten. Als zuverlässiger und professioneller Partner aus Stuttgart entwickeln wir digitale Lösungen und Produkte,
-            die das Spenden an gemeinnützige Organisationen attraktiver und zugänglicher gestalten.​
-          </div>
-        </div>
-
-        <div id="we">
-          <div id="what-is">
-            <img class="text-logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Team
-          </div>
-          <div id="what-is-explanation">
-            »Wir wollen gemeinnützigen Organisationen die Möglichkeit<br>
-            zur langfristigen und effizienten Unterstützung bieten«
-          </div>
-        </div>
-
-        <div class="members">
-          {% for member in site.data.team %}
-          <div class="member">
-            <img class="member__image" src="{{ site.url }}{{ site.baseurl }}/assets/team/{{ member.id }}.jpg"/>
-            <img class="member__smile" src="{{ site.url }}{{ site.baseurl }}/assets/smile.svg"/>
-            <div class="member__name">
-              {{ member.name }}
-            </div>
-            <div class="member__desc">
-              {{ member.desc }}
-            </div>
-          </div>
-          {% endfor %}
-        </div>
+  <div class="title">
+    Über <img class="title__logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/>
+  </div>
+  <h3 class="mt-4 mb-4 center">
+    Gemeinsam Gutes tun
+  </h3>
+  <div class="center">
+    tugut ist Deutschlands Spendenplattform speziell für Vereine. Das ehrenamtliche Engagement der Bürgerinnen und
+    Bürger hat eine zentrale Bedeutung für den gesellschaftlichen Zusammenhalt in Deutschland. Sowohl temporäres als
+    auch langjähriges Engagement soll dauerhaft gestärkt und gefördert werden.​ Wir
+    setzen uns für eine Gesellschaft ein, in der gemeinnützige Organisationen die Mittel haben, sich durch
+    Eigeninitiative selbst zu fördern und nachhaltig zur eigenen Spenden-Finanzierung beizutragen.
+    Hierzu wollen wir einen Beitrag leisten. Als zuverlässiger und professioneller Partner aus Stuttgart entwickeln wir
+    digitale Lösungen und Produkte,
+    die das Spenden an gemeinnützige Organisationen attraktiver und zugänglicher gestalten.
+  </div>
+  <div class="title">
+    <img class="title__logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Team
+  </div>
+  <div class="center">
+    <h2 class="mt-4 mb-4">
+      »Wir wollen gemeinnützigen Organisationen die Möglichkeit<br>
+      zur langfristigen und effizienten Unterstützung bieten«
+    </h2>
+  </div>
+  <div class="members">
+    {% for member in site.data.team %}
+    <div class="member">
+      <img class="member__image" src="{{ site.url }}{{ site.baseurl }}/assets/team/{{ member.id }}.jpg"/>
+      <img class="member__smile" src="{{ site.url }}{{ site.baseurl }}/assets/smile.svg"/>
+      <div class="member__name">
+        {{ member.name }}
+      </div>
+      <div class="member__desc">
+        {{ member.desc }}
       </div>
     </div>
+    {% endfor %}
   </div>
-  {% include footer.html %}
 </div>
+
+{% include footer.html %}
 </body>
 </html>
