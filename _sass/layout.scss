@@ -27,6 +27,9 @@
   }
 }
 
+.possibilities {
+  margin-bottom: 150px;
+}
 .concept {
 }
 
@@ -49,6 +52,7 @@
   font-size: 2.3rem;
   font-weight: bold;
   margin-top: 50px;
+  margin-bottom: 25px;
 
   &__logo {
     padding: 0 10px 0 10px;
@@ -59,6 +63,10 @@
 
 .badge-white {
   color: white;
+}
+
+.testimonials {
+  margin-top: 150px;
 }
 
 .testimonial {
@@ -97,7 +105,7 @@
 }
 
 .hero {
-  margin-bottom: 50px;
+  margin-bottom: 150px;
   margin-top: 50px;
   &__image {
     width: 100%;
@@ -149,8 +157,6 @@
   align-items: stretch;
 }
 
-.blogpost a {
-}
 .blogpost {
   max-width: 400px;
   flex: 0 1 48%;
@@ -257,24 +263,36 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  .blogpost {
+    flex: none;
+  }
+
   .hero {
     margin-bottom: 10px;
     margin-top: 10px;
   }
+
   .navbar-links {
     display: flex;
     justify-content: flex-start;
   }
+
   .title {
     font-size: 2.1rem;
   }
+
   .start-cta {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
   .mobile-center {
     text-align: center;
+  }
+
+  .member {
+    flex: 0 100%;
   }
 }
 
