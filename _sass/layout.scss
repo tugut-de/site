@@ -3,13 +3,6 @@
 	justify-content: flex-end;
 }
 
-@media only screen and (max-width: 768px) {
-	.navbar-links {
-		display: flex;
-		justify-content: flex-start;
-	}
-}
-
 .navbar-logo {
 	&__text {
 		font-size: 1rem;
@@ -33,12 +26,27 @@
 	}
 }
 
+.concept {
+}
+
+.conceptitem {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	&__image {
+		max-width: 250px;
+	}
+}
+
 .title {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-size: 2.3rem;
 	font-weight: bold;
+	margin-top: 50px;
 	&__logo {
 		padding: 0 10px 0 0;
 		margin-top: 10px;
@@ -46,3 +54,62 @@
 		height: 35px;
 	}
 }
+
+.testimonial {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	&__quote {
+		text-align: center;
+		font-style: italic;
+	}
+	&__image {
+		margin: 10px 0 10px 0;
+		border-radius: 50%;
+	}
+	&__position {
+		color: grey;
+	}
+	&__group {
+		text-align: center;
+		margin-top: 5px;
+		color: grey;
+		font-size: 1.1rem;
+	}
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.end-cta {
+	margin-bottom: 100px;
+}
+
+.start-cta {
+
+}
+
+.footer-link {
+	color: black;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar-links {
+		display: flex;
+		justify-content: flex-start;
+	}
+	.title {
+		font-size: 2.1rem;
+	}
+	.start-cta {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+

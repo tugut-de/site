@@ -13,103 +13,88 @@
     Sammle im Handumdrehen Spenden für deinen Verein
     mit der tugut Lotterie
   </h2>
-  <button type="button" class="btn btn-primary"
-          onclick="location.href='mailto:info@tugut.de';">
-    <span style="color: white;">Mehr Infos?</span>
-  </button>
+  <div class="start-cta">
+    <button type="button" class="btn btn-primary"
+            onclick="location.href='mailto:info@tugut.de';">
+      <span style="color: white;">Mehr Infos?</span>
+    </button>
+  </div>
 
   <div class="title">
     <img class="title__logo" src="{{ site.url }}{{ site.baseurl }}/assets/logo_green.svg"/> Konzept
   </div>
-</div>
-
-<div class="main">
-  <div class="content">
-    <div class="imageWrapper">
-      <div class="headerBackground">
-        <div>
-          <div class="container">
-
-            <div id="concept">
-            </div>
-
-            <div id="concept-explanation">
-              <div class="conceptitem">
-                <div class="conceptitem__image">
-                  <img src="{{ site.url }}{{ site.baseurl }}/assets/ziel.svg"/>
-                </div>
-                <div class="conceptitem__header">
-                  Was ist das Ziel<br> von tugut?
-                </div>
-                <div class="conceptitem__desc">
-                  tugut entwickelt digitale Lösungen und Produkte,
-                  die das Spenden an gemeinnützige Organisationen
-                  attraktiver und zugänglicher gestalten.
-                </div>
-                <div class="conceptitem__desc">
-                  Erfahre mehr in unserem <a target="_self" href="{{ site.url }}{{ site.baseurl }}/blog">Blog</a>
-                </div>
-                <div class="conceptitem__desc">
-                  Erfahre mehr <a target="_self" href="{{ site.url }}{{ site.baseurl }}/ueberuns">über uns</a>
-                </div>
-              </div>
-              <div class="conceptitem">
-                <div class="conceptitem__image">
-                  <img src="{{ site.url }}{{ site.baseurl }}/assets/plattform.svg"/>
-                </div>
-                <div class="conceptitem__header">
-                  Wie kann tugut<br>
-                  deinem Verein helfen?
-                </div>
-                <div class="conceptitem__desc">
-                  Gemeinsam <a target="_self" href="{{ site.url }}{{ site.baseurl }}/lotterie">Gutes tun und gewinnen</a>
-                </div>
-                <div class="conceptitem__desc">
-                  Wir helfen deinem Verein eine eigene Lotterie durchzuführen. ​
-                  Das Gewinnspiel macht das Sammeln von Spenden spielend einfach.
-                </div>
-              </div>
-            </div>
-
-            <div class="testimonials">
-              <div class="testimonials__heading">
-                Stimmen der Vereine
-              </div>
-              <div class="testimonial">
-                <div class="testimonial__quote">
-                  "Leider mussten wir wegen Corona dieses Jahr unser Lager absagen. Dank tugut haben wir aber eine tolle Möglichkeit gefunden, um trotzdem etwas Geld für unsere Zeltlagerkasse einzusammeln und wichtige Anschaffungen für das nächste Jahr zu tätigen."
-                </div>
-                <div>
-                  <img class="testimonial__image" src="{{ site.url }}{{ site.baseurl }}/assets/daniel.png"/>
-                </div>
-                <div>
-                <span class="testimonial__name">
-                  Daniel Palmer
-                </span>
-                  <span class="testimonial__position">
-                  - Lagerleitung Kocherlager
-                </span>
-                <div class="testimonial__group">
-                  Die Apis. Evangelischer Gemeinschaftsverband Württemberg e.V.
-                </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="end-cta">
-              <div class="end-cta__title">
-                Mehr Infos?
-              </div>
-              <input type="button" class="btn cta-green" value="Schreib uns"
-                     onclick="location.href='mailto:info@tugut.de';"/>
-            </div>
-
-          </div>
-          {% include footer.html %}
+  <div class="concept">
+    <div class="column">
+      <div class="row">
+        <div class="conceptitem col-md-6">
+          <img class="conceptitem__image" src="{{ site.url }}{{ site.baseurl }}/assets/ziel.svg"/>
+          <h3>Was ist das Ziel<br> von tugut?</h3>
+          <h5>
+            Wir entwickeln digitale Lösungen und Produkte, die das Spenden an gemeinnützige Organisationen attraktiver und zugänglicher gestalten.
+          </h5>
+          <h5>
+            Erfahre mehr in unserem <a target="_self" href="{{ site.url }}{{ site.baseurl }}/blog">Blog</a>
+          </h5>
+          <h5>
+            Erfahre mehr <a target="_self" href="{{ site.url }}{{ site.baseurl }}/ueberuns">über uns</a>
+          </h5>
+        </div>
+        <div class="conceptitem col-md-6">
+          <img class="conceptitem__image" src="{{ site.url }}{{ site.baseurl }}/assets/plattform.svg"/>
+          <h3>
+            Wie kann tugut<br>
+            deinem Verein helfen?
+          </h3>
+          <h5>
+            Gemeinsam <a target="_self" href="{{ site.url }}{{ site.baseurl }}/lotterie">Gutes tun und
+            gewinnen</a>
+          </h5>
+          <h5>
+            Wir helfen deinem Verein eine eigene Lotterie durchzuführen.
+            Das Gewinnspiel macht das Sammeln von Spenden spielend einfach.
+          </h5>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="title">
+    Stimmen der Vereine
+  </div>
+  <div class="testimonial">
+    <div class="testimonial__quote">
+      "Leider mussten wir wegen Corona dieses Jahr unser Lager absagen. Dank tugut haben wir aber eine tolle
+      Möglichkeit gefunden, um trotzdem etwas Geld für unsere Zeltlagerkasse einzusammeln und wichtige
+      Anschaffungen für das nächste Jahr zu tätigen."
+    </div>
+    <div>
+      <img class="testimonial__image" src="{{ site.url }}{{ site.baseurl }}/assets/daniel.png"/>
+    </div>
+    <div>
+    <span class="testimonial__name">
+       Daniel Palmer
+    </span>
+    <span class="testimonial__position">
+       - Lagerleitung Kocherlager
+    </span>
+    </div>
+    <div class="testimonial__group">
+      Die Apis. Evangelischer Gemeinschaftsverband Württemberg e.V.
+    </div>
+  </div>
+
+  <div class="end-cta">
+  <div class="title">
+    Mehr Infos?
+  </div>
+  <div class="center">
+    <button type="button" class="btn btn-primary"
+            onclick="location.href='mailto:info@tugut.de';">
+      <span style="color: white;">Schreib uns</span>
+    </button>
+  </div>
+  </div>
 </div>
+{% include footer.html %}
 </body>
 </html>

@@ -1,12 +1,10 @@
 <footer class="footer">
-	<div id="footer-copyright">
-		© tugut GmbH
-	</div>
-	<div class="footerLinks">
-		{% for page in site.pages %}
-      {% if page.include_in_footer == true %}
-			  | <a href="{{ page.url | relative_url }}" target="_self"> {{ page.title }} </a>
-		  {% endif %}
-		{% endfor %}
-	</div>
+  <div class="center">
+    © tugut GmbH
+    {% for page in site.pages %}
+    {% if page.include_in_footer == true %}
+    | <a class="footer-link" href="{{ page.url | relative_url }}" target="_self"> {{ page.title }} </a>
+    {% endif %}
+    {% endfor %}
+  </div>
 </footer>
