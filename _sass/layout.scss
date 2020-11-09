@@ -17,6 +17,7 @@
     max-width: 600px;
     font-size: 2rem;
     font-weight: bold;
+    letter-spacing: -0.2px;
   }
 
   &__slogan2 {
@@ -59,6 +60,7 @@
   align-items: center;
   justify-content: center;
   font-size: 2.3rem;
+  letter-spacing: -0.2px;
   font-weight: bold;
   margin-top: 50px;
   margin-bottom: 25px;
@@ -276,6 +278,13 @@
     flex: none;
   }
 
+  .navbar-logo {
+    &__text {
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+  }
+
   .hero {
     margin-bottom: 10px;
     margin-top: 10px;
@@ -302,6 +311,10 @@
 
   .member {
     flex: 0 100%;
+  }
+
+  .tugut-footer {
+    font-size: 0.8rem;
   }
 }
 
