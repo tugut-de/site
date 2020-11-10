@@ -257,8 +257,10 @@
     max-width: 200px;
   }
   &__smile {
-    margin-top: -30px;
-    max-width: 200px;
+    position: absolute;
+    width: 45px;
+    top: 75%;
+    left: 75%;
   }
   &__name {
     margin-top: 10px;
@@ -268,6 +270,9 @@
   &__desc {
     font-size: 1.1rem;
     line-height: 1.3;
+  }
+  &__containerfluid {
+    position: relative;
   }
 }
 @media only screen and (max-width: 768px) {
