@@ -43,7 +43,6 @@
 .conceptitem {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   text-align: center;
 
@@ -73,6 +72,7 @@
 
 .testimonials {
   margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 .testimonial {
