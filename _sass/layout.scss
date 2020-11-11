@@ -145,12 +145,11 @@
 .features {
   margin: auto auto 100px auto;
   &__image {
-    max-width: 300px;
+    width: 100%;
   }
   &__right {
     display: flex;
-    justify-content: flex-end;
-    align-items: end;
+    align-items: center;
   }
   &__left {
     display: flex;
